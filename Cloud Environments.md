@@ -183,44 +183,44 @@ mindmap
 
 ---
 
-## Alternative 3b: Mindmap View with Brackets Differentiation
+## Alternative 3b: Mindmap View with Tag Differentiation
 
 ```mermaid
 mindmap
   root((Cloud Environments))
     EU Region
-      [DEV] Mobile Dev
+      DEV: Mobile Dev
         31518660332
-      [INT] EU-INT
+      INT: EU-INT
         858308689720
-      [QA] EU-QA
+      QA: EU-QA
         568730585496
-      [TEST] EU-System Test
+      TEST: EU-System Test
         450234543935
-      [PERF] 10xPerf
+      PERF: 10xPerf
         516989349834
-      [STAGE] EU-Staging
+      STAGE: EU-Staging
         761042451864
-      [PROD] EU-Commercial
+      PROD: EU-Commercial
         425557308772
-      [CLINICAL] EU-Clinical
+      CLINICAL: EU-Clinical
         576542144457
     US Region
-      [DEV] Mobile Dev
+      DEV: Mobile Dev
         31518660332
-      [INT] Cloud-INT
+      INT: Cloud-INT
         444235492013
-      [QA] US-QA
+      QA: US-QA
         685815368936
-      [TEST] US-SystemTest
+      TEST: US-SystemTest
         798382343803
-      [PERF] 10xPerf
+      PERF: 10xPerf
         516989349834
-      [STAGE] US-Staging
+      STAGE: US-Staging
         761042451864
-      [PROD] US-Commercial
+      PROD: US-Commercial
         699069681480
-      [CLINICAL] US-Clinical
+      CLINICAL: US-Clinical
         673098177177
 ```
 
