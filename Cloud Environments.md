@@ -140,54 +140,57 @@ classDiagram
 
 ---
 
-## Alternative 3: Mindmap View (Color-Coded by Environment Type)
+## Alternative 3: Color-Coded Tree View (by Environment Type)
 
 ```mermaid
-mindmap
-  root((Cloud Environments))
-    EU Region
-      Mobile Dev:::dev
-        31518660332
-      EU-INT:::int
-        858308689720
-      EU-QA:::qa
-        568730585496
-      EU-System Test:::systemtest
-        450234543935
-      10xPerf:::perf
-        516989349834
-      EU-Staging:::staging
-        761042451864
-      EU-Commercial:::commercial
-        425557308772
-      EU-Clinical:::clinical
-        576542144457
-    US Region
-      Mobile Dev:::dev
-        31518660332
-      Cloud-INT:::int
-        444235492013
-      US-QA:::qa
-        685815368936
-      US-SystemTest:::systemtest
-        798382343803
-      10xPerf:::perf
-        516989349834
-      US-Staging:::staging
-        761042451864
-      US-Commercial:::commercial
-        699069681480
-      US-Clinical:::clinical
-        673098177177
-
-classDef dev fill:#FF6B6B,stroke:#C92A2A,stroke-width:3px,color:#fff
-classDef int fill:#4ECDC4,stroke:#087F5B,stroke-width:3px,color:#fff
-classDef qa fill:#FFE66D,stroke:#F59F00,stroke-width:3px,color:#000
-classDef systemtest fill:#A8DADC,stroke:#1864AB,stroke-width:3px,color:#000
-classDef perf fill:#B4A7D6,stroke:#5F3DC4,stroke-width:3px,color:#fff
-classDef staging fill:#FFB84D,stroke:#E67700,stroke-width:3px,color:#000
-classDef commercial fill:#51CF66,stroke:#2F9E44,stroke-width:3px,color:#fff
-classDef clinical fill:#FF8787,stroke:#E03131,stroke-width:3px,color:#fff
+graph TD
+    Root((Cloud<br/>Environments))
+    
+    EU[EU Region]
+    US[US Region]
+    
+    Root --> EU
+    Root --> US
+    
+    EU --> EU_Dev["Mobile Dev<br/>31518660332"]
+    EU --> EU_Int["EU-INT<br/>858308689720"]
+    EU --> EU_QA["EU-QA<br/>568730585496"]
+    EU --> EU_ST["EU-System Test<br/>450234543935"]
+    EU --> EU_Perf["10xPerf<br/>516989349834"]
+    EU --> EU_Stg["EU-Staging<br/>761042451864"]
+    EU --> EU_Comm["EU-Commercial<br/>425557308772"]
+    EU --> EU_Clin["EU-Clinical<br/>576542144457"]
+    
+    US --> US_Dev["Mobile Dev<br/>31518660332"]
+    US --> US_Int["Cloud-INT<br/>444235492013"]
+    US --> US_QA["US-QA<br/>685815368936"]
+    US --> US_ST["US-SystemTest<br/>798382343803"]
+    US --> US_Perf["10xPerf<br/>516989349834"]
+    US --> US_Stg["US-Staging<br/>761042451864"]
+    US --> US_Comm["US-Commercial<br/>699069681480"]
+    US --> US_Clin["US-Clinical<br/>673098177177"]
+    
+    classDef rootStyle fill:#2E5C8A,stroke:#1A3A5A,stroke-width:4px,color:#fff
+    classDef regionStyle fill:#6C757D,stroke:#495057,stroke-width:3px,color:#fff
+    classDef dev fill:#FF6B6B,stroke:#C92A2A,stroke-width:3px,color:#fff
+    classDef int fill:#4ECDC4,stroke:#087F5B,stroke-width:3px,color:#fff
+    classDef qa fill:#FFE66D,stroke:#F59F00,stroke-width:3px,color:#000
+    classDef systemtest fill:#A8DADC,stroke:#1864AB,stroke-width:3px,color:#000
+    classDef perf fill:#B4A7D6,stroke:#5F3DC4,stroke-width:3px,color:#fff
+    classDef staging fill:#FFB84D,stroke:#E67700,stroke-width:3px,color:#000
+    classDef commercial fill:#51CF66,stroke:#2F9E44,stroke-width:3px,color:#fff
+    classDef clinical fill:#FF8787,stroke:#E03131,stroke-width:3px,color:#fff
+    
+    class Root rootStyle
+    class EU,US regionStyle
+    class EU_Dev,US_Dev dev
+    class EU_Int,US_Int int
+    class EU_QA,US_QA qa
+    class EU_ST,US_ST systemtest
+    class EU_Perf,US_Perf perf
+    class EU_Stg,US_Stg staging
+    class EU_Comm,US_Comm commercial
+    class EU_Clin,US_Clin clinical
 ```
 
 **Color Legend:**
@@ -198,7 +201,7 @@ classDef clinical fill:#FF8787,stroke:#E03131,stroke-width:3px,color:#fff
 - 🟣 **10xPerf** (Purple) - Performance testing
 - 🟠 **Staging** (Orange) - Pre-production staging
 - 🟢 **Commercial** (Green) - Commercial production
-- 🔴 **Clinical** (Coral) - Clinical production
+- 🔴 **Clinical** (Coral/Pink) - Clinical production
 
 ---
 
