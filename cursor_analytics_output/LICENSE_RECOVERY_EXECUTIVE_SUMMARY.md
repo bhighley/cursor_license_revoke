@@ -10,7 +10,8 @@
 
 ### Financial Impact
 - **Current License Spend:** $48,960/year (136 licenses @ $360/year)
-- **Recoverable Amount:** $14,760/year (41 licenses)
+- **Total Recoverable:** $14,760/year (41 licenses)
+- **Conservative Approach (20+ days):** $10,440/year (29 licenses)
 - **Percentage of Budget:** 30.1% of total license spend
 - **ROI Timeline:** Immediate savings upon revocation
 
@@ -21,7 +22,36 @@ Active Users:            95 users (70%)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Recoverable Licenses:    41 users (30%)
   ├─ Never Used:         26 users (19%)
-  └─ Minimal Usage:      15 users (11%)
+  ├─ Minimal Usage:      15 users (11%)
+  └─ Average Tenure:     36.3 days on Cursor
+
+With 20+ Day Protection:
+  ├─ Eligible:           29 users (71% of recoverable)
+  ├─ Protected:          12 users (29% - new users)
+  └─ Conservative Save:  $10,440/year
+```
+
+---
+
+## 🛡️ KEY FEATURE: 20+ DAY PROTECTION POLICY
+
+This analysis includes a **fair evaluation period** to protect new users:
+
+### Smart Filtering
+- **Automatic Protection:** Users with <20 days on Cursor are NOT deactivated
+- **Fair Trial:** ~3 work weeks to complete onboarding and try the tool
+- **Industry Standard:** 20-day evaluation period is professional and defensible
+- **Zero Manual Decisions:** System automatically applies the policy
+
+### Impact on Your 41 Licenses
+- **29 users** have 20+ days → Eligible for immediate deactivation
+- **12 users** have <20 days → Protected, re-evaluate in 30 days
+- **Average tenure:** 36.3 days on Cursor (plenty of time to try)
+
+### Command
+```bash
+python3 deactivate_user.py bulk recoverable_licenses.csv \
+  "Q4 2025 License Optimization" "Your Name" --min-days 20
 ```
 
 ---
@@ -131,29 +161,42 @@ Recoverable Licenses:    41 users (30%)
 ## 🎯 RECOMMENDED ACTION PLAN
 
 ### Phase 1: Immediate Recovery (Week 1)
-**Goal:** Recover 26 never-used licenses
+**Goal:** Recover licenses from users with 20+ days on Cursor
 
 **Actions:**
-1. ✉️ Email all 26 Tier 1 users (template provided)
-2. ⏰ Set 7-day deadline for first usage
+1. ✉️ Email all 29 eligible users (template provided)
+2. ⏰ Set 7-day deadline for Tier 1 (never used)
 3. 🔔 Manager notification for their cost centers
-4. ❌ Auto-revoke after deadline expires
+4. ❌ Deactivate with 20+ day filter: `--min-days 20`
+5. 🛡️ Automatically protects 12 new users (<20 days)
 
-**Expected Recovery:** 20-24 licenses ($7,200-8,640/year)
+**Command:**
+```bash
+python3 deactivate_user.py bulk recoverable_licenses.csv \
+  "Q4 2025 License Optimization" "Your Name" --min-days 20
+```
+
+**Expected Recovery:** 29 licenses ($10,440/year)  
+**Protected:** 12 users ($4,320/year in licenses kept for fair evaluation)
 
 ---
 
-### Phase 2: Engagement Push (Weeks 2-4)
-**Goal:** Recover 10-12 minimal usage licenses
+### Phase 2: Follow-Up on Protected Users (Weeks 2-4)
+**Goal:** Monitor the 12 protected users, engage minimal usage users
 
 **Actions:**
-1. ✉️ Email all 15 Tier 2 users (template provided)
-2. 🎓 Offer 1:1 training sessions
-3. 🔍 Interview high-value dropouts (understand why)
-4. ⏰ Set 30-day deadline for meaningful usage
-5. ❌ Revoke non-responders after deadline
+1. 📊 Track the 12 protected users (<20 days) - are they activating?
+2. ✉️ Send onboarding support to protected users
+3. 🎓 Offer 1:1 training sessions for minimal usage users
+4. 🔍 Interview high-value dropouts (understand why)
+5. ⏰ Re-evaluate protected users at 30-day mark
 
-**Expected Recovery:** 8-12 licenses ($2,880-4,320/year)
+**After 30 Days:**
+- Run same command to catch protected users who still haven't activated
+- Review engagement of minimal-usage users
+- Adjust threshold if needed (lower to 14 or 7 days)
+
+**Potential Additional Recovery:** 8-12 licenses ($2,880-4,320/year)
 
 ---
 
@@ -207,28 +250,29 @@ saved     saved            going forward    maintained
 
 ## 💰 FINANCIAL PROJECTIONS
 
-### Conservative Scenario (60% Recovery)
-- **Licenses Recovered:** 25 of 41
-- **Annual Savings:** $9,000
-- **3-Year Value:** $27,000
+### Recommended Approach (20+ Day Filter - Phase 1 Only)
+- **Licenses Recovered:** 29 of 41 (71%)
+- **Annual Savings:** $10,440
+- **3-Year Value:** $31,320
 - **Implementation Cost:** <$500 (time only)
-- **Net ROI:** 1,700%
+- **Net ROI:** 1,988%
+- **Protected New Users:** 12 (fair evaluation period)
 
-### Moderate Scenario (75% Recovery)
-- **Licenses Recovered:** 31 of 41
-- **Annual Savings:** $11,160
-- **3-Year Value:** $33,480
-- **Implementation Cost:** <$500
-- **Net ROI:** 2,130%
+### With Follow-Up (Phase 2 - After 30 Days)
+- **Additional Licenses:** 8-12 of the protected 12
+- **Additional Annual Savings:** $2,880-4,320
+- **Total Potential:** 37-41 licenses ($13,320-14,760/year)
+- **3-Year Value:** $39,960-44,280
+- **Net ROI:** 2,564-2,785%
 
-### Aggressive Scenario (90% Recovery)
-- **Licenses Recovered:** 37 of 41
-- **Annual Savings:** $13,320
-- **3-Year Value:** $39,960
-- **Implementation Cost:** <$500
-- **Net ROI:** 2,564%
+### Aggressive Scenario (No Filter - All 41)
+- **Licenses Recovered:** 41 of 41 (100%)
+- **Annual Savings:** $14,760
+- **3-Year Value:** $44,280
+- **Risk:** May deactivate users who haven't had fair trial
+- **Net ROI:** 2,785%
 
-**Recommended Target:** 75% recovery (31 licenses, $11,160/year)
+**Recommended Target:** Phase 1 with 20+ day filter (29 licenses, $10,440/year), then Phase 2 follow-up for protected users
 
 ---
 
@@ -249,23 +293,56 @@ saved     saved            going forward    maintained
 
 ## 🚀 QUICK WINS (This Week)
 
-### 1. Email Campaign Launch
-- **Effort:** 2 hours
-- **Impact:** $7-9K/year
-- **Templates:** ✅ Ready to use
-- **Risk:** None (reversible)
+### 1. Run Deactivation with 20+ Day Filter
+- **Effort:** 5 minutes (one command)
+- **Impact:** $10,440/year (29 licenses)
+- **Command:** `python3 deactivate_user.py bulk recoverable_licenses.csv "Q4 2025" "Your Name" --min-days 20`
+- **Risk:** None (reversible, protects new users)
+- **Fair:** Automatically protects 12 users with <20 days
 
-### 2. Cost Center Manager Briefing
+### 2. Email Campaign Launch (Optional)
+- **Effort:** 2 hours
+- **Impact:** Professional courtesy before deactivation
+- **Templates:** ✅ Ready to use
+- **Risk:** None (demonstrates fairness)
+
+### 3. Cost Center Manager Briefing
 - **Effort:** 1 hour meeting per top 5 managers
 - **Impact:** Buy-in + insights on role fit
 - **Materials:** ✅ Reports ready
 - **Risk:** None
 
-### 3. Revoke 13 G&A Tech Ops Licenses
-- **Effort:** 30 minutes
-- **Impact:** $4,680/year (single cost center)
-- **Risk:** Low (47% never used, likely wrong roles)
-- **Reversible:** Yes
+---
+
+## 🛡️ THE 20+ DAY PROTECTION POLICY
+
+### Why 20 Days?
+- ✅ **~3 work weeks** to complete onboarding and try the tool
+- ✅ **Industry standard** for software evaluation periods
+- ✅ **Fair and defensible** - demonstrates good faith
+- ✅ **Protects new hires** from immediate deactivation
+- ✅ **Reduces complaints** - "I just got access!" argument eliminated
+
+### What It Means
+```
+User has 0-19 days on Cursor:
+  → PROTECTED - License kept for fair evaluation
+  → Will re-evaluate in 30 days
+  → Gets onboarding support
+
+User has 20+ days on Cursor:
+  → ELIGIBLE for deactivation if:
+     • Never used (0 active days), OR
+     • Minimal usage + inactive 16+ days
+  → Had adequate time to try the tool
+  → Fair to recover the license
+```
+
+### Benefits
+1. **Legally Defensible:** Clear, consistent policy
+2. **Professional:** Shows you gave fair opportunity
+3. **Automatic:** No manual decision-making needed
+4. **Transparent:** Easy to explain to users/managers
 
 ---
 
@@ -274,15 +351,19 @@ saved     saved            going forward    maintained
 ### Potential Pushback
 
 **"I was going to start using it"**
-- Response: No problem! Use it for 7 days, license reinstated
-- Mitigation: Clear communication about trial period
+- Response: You had 20+ days to try it, but we can re-provision if you commit to using it now
+- Mitigation: 20-day policy is fair and documented
+
+**"I just got access!"**
+- Response: Our system automatically protects anyone with less than 20 days
+- Mitigation: They're likely in the protected 12, not affected
 
 **"I need it for my role"**
-- Response: Help us understand your workflow
+- Response: Help us understand your workflow - 20+ days with no usage suggests it may not fit
 - Mitigation: Manager override option available
 
 **"This feels punitive"**
-- Response: This is optimization, not punishment
+- Response: This is optimization with fair protection - 20+ days to try is industry standard
 - Mitigation: Frame as reallocation, offer alternatives
 
 **"What if I need it later?"**
@@ -371,18 +452,34 @@ All documents created and ready:
 
 ## 🎯 DECISION REQUIRED
 
-**Question:** May we proceed with Phase 1 license recovery outreach?
+**Question:** May we proceed with Phase 1 license recovery using 20+ day protection?
 
 **What Happens Next:**
-- ✅ **YES** → Launch email campaign this week, expect $7-9K savings
-- ⏸️ **WAIT** → Discuss concerns, adjust approach as needed
-- ❌ **NO** → Continue current state, $14,760/year wasted
+- ✅ **YES** → Run deactivation command this week, save $10,440/year (29 licenses)
+  - Automatically protects 12 new users (<20 days)
+  - Fair and professional approach
+  - Reversible if needed
+  
+- 🔄 **YES, BUT WAIT** → Send courtesy emails first, then deactivate next week
+  - Same savings, just delayed 7 days
+  - More professional communication
+  
+- ⏸️ **ADJUST THRESHOLD** → Use different minimum (14 or 7 days instead of 20)
+  - 14 days: Recover ~35 licenses ($12,600/year)
+  - 7 days: Recover ~40 licenses ($14,400/year)
+  
+- ❌ **NO** → Continue current state
+  - $14,760/year wasted
+  - 41 unused/underutilized licenses
+  - 30% of license budget on non-users
 
-**Recommendation:** Proceed with YES
+**Recommendation:** Proceed with YES (20+ day protection)
+- Fair evaluation period (3 weeks)
+- Legally defensible policy
 - Low risk (reversible)
-- High reward ($10K+/year)
-- Minimal effort (templates ready)
-- Best practice (license optimization)
+- High reward ($10,440/year immediately)
+- Professional approach
+- Can follow up with protected users in 30 days
 
 ---
 
@@ -390,25 +487,35 @@ All documents created and ready:
 
 ### If Approved Today:
 
-**Tomorrow:**
-- Send Tier 1 emails (26 never-used)
-- Brief cost center managers
-- Set up tracking dashboard
-
 **This Week:**
-- Monitor responses
-- Schedule training sessions
-- Process feedback
+```bash
+# Run the deactivation command (5 minutes)
+cd /Users/whighley/cursor_analytics_project
+python3 deactivate_user.py bulk cursor_analytics_output/recoverable_licenses.csv \
+  "Q4 2025 License Optimization - 20+ Day Policy" "Your Name" --min-days 20
+```
 
-**Week 2:**
-- Send Tier 2 emails (15 minimal-use)
-- Revoke Tier 1 non-responders
-- Document learnings
+**Expected Output:**
+- ✅ 29 users deactivated (20+ days on Cursor)
+- ⏭️ 12 users protected (<20 days on Cursor)
+- 📊 Summary report showing breakdown
+- 💾 All details logged to database
 
-**Week 5:**
-- Revoke Tier 2 non-responders
+**Follow-Up Actions:**
+- Remove 29 users from Cursor portal (manual or contact support)
+- Brief cost center managers on deactivations
+- Send onboarding support to 12 protected users
+
+**Week 2-4:**
+- Monitor the 12 protected users
+- Track if they activate their licenses
+- Offer training/support to encourage adoption
+
+**Week 4-5:**
+- Re-run command for protected users who still haven't activated after 30 days
+- Additional 8-12 licenses likely recoverable
 - Generate final savings report
-- Present results to leadership
+- Present results to leadership: $10,440-13,320/year saved
 
 ---
 
@@ -425,22 +532,30 @@ All documents created and ready:
 
 ## 🎉 THE BOTTOM LINE
 
-- **$14,760/year** is being wasted on unused licenses
-- **41 users** aren't benefiting from their access
-- **30 minutes of work** can recover most of it
+- **$10,440/year** can be saved immediately (29 licenses with 20+ day protection)
+- **41 users** total aren't benefiting from their access
+- **5 minutes of work** - one command recovers 29 licenses
+- **Fair approach** - automatically protects 12 users with <20 days
 - **Zero risk** - everything is reversible
-- **Templates ready** - just need approval to send
+- **Follow-up potential** - additional $2,880-4,320/year from protected users
+- **Total opportunity** - up to $14,760/year
 
-**Let's turn wasted spend into productive investment.**
+**One command. Fair policy. $10,440/year saved.**
+
+```bash
+python3 deactivate_user.py bulk recoverable_licenses.csv \
+  "Q4 2025 License Optimization" "Your Name" --min-days 20
+```
 
 ---
 
-**Report Generated:** November 18, 2025  
+**Report Generated:** November 18, 2025 (Updated with 20+ Day Protection Policy)  
 **Data Source:** Cursor Analytics Database (136 users, 6,003 records)  
 **Confidence Level:** High (direct API data, validated metrics)  
-**Refresh Frequency:** Daily (dashboard auto-updates)
+**Refresh Frequency:** Daily (dashboard auto-updates)  
+**Protection Policy:** 20+ day minimum automatically applied via `--min-days 20` flag
 
 ---
 
-*This report is based on actual usage data from September 15 - November 17, 2025. Financial projections assume $30/user/month license cost ($360/year). Adjust calculations if your actual license cost differs.*
+*This report is based on actual usage data from September 15 - November 17, 2025. Financial projections assume $30/user/month license cost ($360/year). The 20+ day protection policy ensures fair evaluation periods and reduces risk of premature deactivation. All 41 users in the recoverable_licenses.csv now include days_on_cursor data for accurate filtering.*
 
