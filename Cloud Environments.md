@@ -140,46 +140,65 @@ classDiagram
 
 ---
 
-## Alternative 3: Mindmap View
+## Alternative 3: Mindmap View (Color-Coded by Environment Type)
 
 ```mermaid
 mindmap
   root((Cloud Environments))
     EU Region
-      Mobile Dev
+      Mobile Dev:::dev
         31518660332
-      EU-INT
+      EU-INT:::int
         858308689720
-      EU-QA
+      EU-QA:::qa
         568730585496
-      EU-System Test
+      EU-System Test:::systemtest
         450234543935
-      10xPerf
+      10xPerf:::perf
         516989349834
-      EU-Staging
+      EU-Staging:::staging
         761042451864
-      EU-Commercial
+      EU-Commercial:::commercial
         425557308772
-      EU-Clinical
+      EU-Clinical:::clinical
         576542144457
     US Region
-      Mobile Dev
+      Mobile Dev:::dev
         31518660332
-      Cloud-INT
+      Cloud-INT:::int
         444235492013
-      US-QA
+      US-QA:::qa
         685815368936
-      US-SystemTest
+      US-SystemTest:::systemtest
         798382343803
-      10xPerf
+      10xPerf:::perf
         516989349834
-      US-Staging
+      US-Staging:::staging
         761042451864
-      US-Commercial
+      US-Commercial:::commercial
         699069681480
-      US-Clinical
+      US-Clinical:::clinical
         673098177177
+
+classDef dev fill:#FF6B6B,stroke:#C92A2A,stroke-width:3px,color:#fff
+classDef int fill:#4ECDC4,stroke:#087F5B,stroke-width:3px,color:#fff
+classDef qa fill:#FFE66D,stroke:#F59F00,stroke-width:3px,color:#000
+classDef systemtest fill:#A8DADC,stroke:#1864AB,stroke-width:3px,color:#000
+classDef perf fill:#B4A7D6,stroke:#5F3DC4,stroke-width:3px,color:#fff
+classDef staging fill:#FFB84D,stroke:#E67700,stroke-width:3px,color:#000
+classDef commercial fill:#51CF66,stroke:#2F9E44,stroke-width:3px,color:#fff
+classDef clinical fill:#FF8787,stroke:#E03131,stroke-width:3px,color:#fff
 ```
+
+**Color Legend:**
+- 🔴 **Mobile Dev** (Red) - Development environment
+- 🔵 **Integration** (Teal) - Integration testing
+- 🟡 **QA** (Yellow) - Quality assurance
+- 🟦 **System Test** (Light Blue) - System testing
+- 🟣 **10xPerf** (Purple) - Performance testing
+- 🟠 **Staging** (Orange) - Pre-production staging
+- 🟢 **Commercial** (Green) - Commercial production
+- 🔴 **Clinical** (Coral) - Clinical production
 
 ---
 
