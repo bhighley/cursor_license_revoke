@@ -1,0 +1,1609 @@
+{
+  "analysis_timestamp": "2025-10-31T11:56:30.573447",
+  "data_summary": {
+    "total_commits": 1900,
+    "has_changes_data": true,
+    "date_range": {
+      "start": "2025-09-29 22:14:20.000",
+      "end": "2025-10-31 16:44:14.000"
+    }
+  },
+  "adoption_patterns": {
+    "total_commits": 1900,
+    "ai_assisted_commits": 744,
+    "ai_adoption_rate": 39.1578947368421,
+    "pure_manual_commits": 1156,
+    "total_ai_lines": 157579,
+    "total_manual_lines": 322549,
+    "ai_code_percentage": 32.820206278325784,
+    "manual_code_percentage": 67.17979372167422,
+    "tab_completion_lines": 2885,
+    "composer_lines": 154694,
+    "tab_vs_composer_ratio": 0.018649721385444813,
+    "preferred_ai_tool": "Composer"
+  },
+  "acceptance_indicators": {
+    "ai_acceptance_indicators": {
+      "avg_ai_ratio_per_commit": 0.6574095121089417,
+      "median_ai_ratio_per_commit": 0.8921706289643151,
+      "high_ai_commits": 484,
+      "pure_ai_commits": 344
+    },
+    "commit_size_patterns": {
+      "avg_ai_commit_size": 360.73655913978496,
+      "avg_ai_lines_per_commit": 211.7997311827957,
+      "large_ai_commits": 183,
+      "small_ai_commits": 327
+    },
+    "consistency_indicators": {
+      "days_with_ai_usage": 32,
+      "avg_ai_commits_per_active_day": 23.25,
+      "max_ai_commits_per_day": 71,
+      "consistent_usage_days": 30
+    }
+  },
+  "user_patterns": {
+    "total_users": 61,
+    "avg_adoption_rate": 36.01885537771774,
+    "median_adoption_rate": 33.33333333333333,
+    "high_adopters": 20,
+    "power_users": 22,
+    "user_details": {
+      "user_gbGY7AiDW6rbBHhm72AUn9VsTZ": {
+        "total_commits": 164,
+        "ai_commits": 60,
+        "ai_adoption_rate": 36.58536585365854,
+        "ai_lines": 1834,
+        "manual_lines": 19932,
+        "ai_percentage": 8.425985481944318,
+        "tab_lines": 239,
+        "composer_lines": 1595,
+        "preferred_tool": "Composer"
+      },
+      "user_9EcMhcvsnf7TbNIU5X9tGAsnpq": {
+        "total_commits": 12,
+        "ai_commits": 4,
+        "ai_adoption_rate": 33.33333333333333,
+        "ai_lines": 266,
+        "manual_lines": 138,
+        "ai_percentage": 65.84158415841584,
+        "tab_lines": 0,
+        "composer_lines": 266,
+        "preferred_tool": "Composer"
+      },
+      "user_uqFdukeihkTAlUndIOr3e8YE1x": {
+        "total_commits": 74,
+        "ai_commits": 55,
+        "ai_adoption_rate": 74.32432432432432,
+        "ai_lines": 6066,
+        "manual_lines": 6758,
+        "ai_percentage": 47.30193387398627,
+        "tab_lines": 0,
+        "composer_lines": 6066,
+        "preferred_tool": "Composer"
+      },
+      "user_E8NBX1fi8tZ2MpnWvQgml0K8Iy": {
+        "total_commits": 53,
+        "ai_commits": 7,
+        "ai_adoption_rate": 13.20754716981132,
+        "ai_lines": 63,
+        "manual_lines": 594,
+        "ai_percentage": 9.58904109589041,
+        "tab_lines": 63,
+        "composer_lines": 0,
+        "preferred_tool": "Tab"
+      },
+      "user_E8NrmVYr8tZ2MpnWvQgml0K8Iy": {
+        "total_commits": 13,
+        "ai_commits": 0,
+        "ai_adoption_rate": 0.0,
+        "ai_lines": 0,
+        "manual_lines": 6688,
+        "ai_percentage": 0.0,
+        "tab_lines": 0,
+        "composer_lines": 0,
+        "preferred_tool": "Composer"
+      },
+      "user_oJKyldMDKmqwsOut78Xrf3pbMC": {
+        "total_commits": 26,
+        "ai_commits": 5,
+        "ai_adoption_rate": 19.230769230769234,
+        "ai_lines": 7,
+        "manual_lines": 9445,
+        "ai_percentage": 0.07405840033855268,
+        "tab_lines": 7,
+        "composer_lines": 0,
+        "preferred_tool": "Tab"
+      },
+      "user_MgLcuiQkj1ZrkfPY3atnNdV9Uc": {
+        "total_commits": 29,
+        "ai_commits": 13,
+        "ai_adoption_rate": 44.827586206896555,
+        "ai_lines": 2479,
+        "manual_lines": 3933,
+        "ai_percentage": 38.661883967560826,
+        "tab_lines": 2,
+        "composer_lines": 2477,
+        "preferred_tool": "Composer"
+      },
+      "user_mweaPr4g60dEHyUoRLgn4JGzNe": {
+        "total_commits": 27,
+        "ai_commits": 3,
+        "ai_adoption_rate": 11.11111111111111,
+        "ai_lines": 28,
+        "manual_lines": 563,
+        "ai_percentage": 4.737732656514383,
+        "tab_lines": 0,
+        "composer_lines": 28,
+        "preferred_tool": "Composer"
+      },
+      "user_NC8cQ5PUdDX2odVxNkIM7OjAcL": {
+        "total_commits": 104,
+        "ai_commits": 7,
+        "ai_adoption_rate": 6.730769230769231,
+        "ai_lines": 111,
+        "manual_lines": 38723,
+        "ai_percentage": 0.2858320028840706,
+        "tab_lines": 21,
+        "composer_lines": 90,
+        "preferred_tool": "Composer"
+      },
+      "user_Gnb5VPIaA3T9hSodDx6wqPCR0U": {
+        "total_commits": 21,
+        "ai_commits": 12,
+        "ai_adoption_rate": 57.14285714285714,
+        "ai_lines": 65,
+        "manual_lines": 6778,
+        "ai_percentage": 0.9498757854742073,
+        "tab_lines": 64,
+        "composer_lines": 1,
+        "preferred_tool": "Tab"
+      },
+      "user_idaT673A2YwEtOlivdu8Pj3nJR": {
+        "total_commits": 12,
+        "ai_commits": 11,
+        "ai_adoption_rate": 91.66666666666666,
+        "ai_lines": 8040,
+        "manual_lines": 5473,
+        "ai_percentage": 59.49826093391549,
+        "tab_lines": 40,
+        "composer_lines": 8000,
+        "preferred_tool": "Composer"
+      },
+      "user_DtHCUEJ3F30OyPh8RxLD2mIC4f": {
+        "total_commits": 3,
+        "ai_commits": 0,
+        "ai_adoption_rate": 0.0,
+        "ai_lines": 0,
+        "manual_lines": 4240,
+        "ai_percentage": 0.0,
+        "tab_lines": 0,
+        "composer_lines": 0,
+        "preferred_tool": "Composer"
+      },
+      "user_7usy1EtvBTfQcHVFoELqv2N0Ah": {
+        "total_commits": 100,
+        "ai_commits": 5,
+        "ai_adoption_rate": 5.0,
+        "ai_lines": 291,
+        "manual_lines": 3126,
+        "ai_percentage": 8.516242317822652,
+        "tab_lines": 30,
+        "composer_lines": 261,
+        "preferred_tool": "Composer"
+      },
+      "user_lUpfAFGobt2RQNbyrTDk7AjMl1": {
+        "total_commits": 48,
+        "ai_commits": 13,
+        "ai_adoption_rate": 27.083333333333332,
+        "ai_lines": 6079,
+        "manual_lines": 3497,
+        "ai_percentage": 63.48162071846283,
+        "tab_lines": 0,
+        "composer_lines": 6079,
+        "preferred_tool": "Composer"
+      },
+      "user_9EcMH6EInf7TbNIU5X9tGAsnpq": {
+        "total_commits": 26,
+        "ai_commits": 7,
+        "ai_adoption_rate": 26.923076923076923,
+        "ai_lines": 59,
+        "manual_lines": 2309,
+        "ai_percentage": 2.491554054054054,
+        "tab_lines": 0,
+        "composer_lines": 59,
+        "preferred_tool": "Composer"
+      },
+      "user_3ZQU1q6Bw5KonPuXROI0mp9zlc": {
+        "total_commits": 5,
+        "ai_commits": 0,
+        "ai_adoption_rate": 0.0,
+        "ai_lines": 0,
+        "manual_lines": 6878,
+        "ai_percentage": 0.0,
+        "tab_lines": 0,
+        "composer_lines": 0,
+        "preferred_tool": "Composer"
+      },
+      "user_01hirjkd6f2yOJBZlNAjx1pnsG": {
+        "total_commits": 7,
+        "ai_commits": 1,
+        "ai_adoption_rate": 14.285714285714285,
+        "ai_lines": 409,
+        "manual_lines": 639,
+        "ai_percentage": 39.026717557251914,
+        "tab_lines": 0,
+        "composer_lines": 409,
+        "preferred_tool": "Composer"
+      },
+      "user_7usy5ghiBTfQcHVFoELqv2N0Ah": {
+        "total_commits": 52,
+        "ai_commits": 20,
+        "ai_adoption_rate": 38.46153846153847,
+        "ai_lines": 153,
+        "manual_lines": 8397,
+        "ai_percentage": 1.789473684210526,
+        "tab_lines": 153,
+        "composer_lines": 0,
+        "preferred_tool": "Tab"
+      },
+      "user_aAdNl3ulyUi5zhnoMyBN74r8vX": {
+        "total_commits": 11,
+        "ai_commits": 0,
+        "ai_adoption_rate": 0.0,
+        "ai_lines": 0,
+        "manual_lines": 1282,
+        "ai_percentage": 0.0,
+        "tab_lines": 0,
+        "composer_lines": 0,
+        "preferred_tool": "Composer"
+      },
+      "user_9EcMBwfgnf7TbNIU5X9tGAsnpq": {
+        "total_commits": 52,
+        "ai_commits": 43,
+        "ai_adoption_rate": 82.6923076923077,
+        "ai_lines": 30609,
+        "manual_lines": 22138,
+        "ai_percentage": 58.029840559652676,
+        "tab_lines": 1,
+        "composer_lines": 30608,
+        "preferred_tool": "Composer"
+      },
+      "user_PDSe3ngrpYgZEDXsoNirw3CFhy": {
+        "total_commits": 1,
+        "ai_commits": 0,
+        "ai_adoption_rate": 0.0,
+        "ai_lines": 0,
+        "manual_lines": 4915,
+        "ai_percentage": 0.0,
+        "tab_lines": 0,
+        "composer_lines": 0,
+        "preferred_tool": "Composer"
+      },
+      "user_gbGYHZmNW6rbBHhm72AUn9VsTZ": {
+        "total_commits": 50,
+        "ai_commits": 38,
+        "ai_adoption_rate": 76.0,
+        "ai_lines": 1916,
+        "manual_lines": 1765,
+        "ai_percentage": 52.05107307796795,
+        "tab_lines": 2,
+        "composer_lines": 1914,
+        "preferred_tool": "Composer"
+      },
+      "user_SHDg1WJhzNDYCSh73zVu8rloQJ": {
+        "total_commits": 16,
+        "ai_commits": 11,
+        "ai_adoption_rate": 68.75,
+        "ai_lines": 1377,
+        "manual_lines": 605,
+        "ai_percentage": 69.4752774974773,
+        "tab_lines": 1,
+        "composer_lines": 1376,
+        "preferred_tool": "Composer"
+      },
+      "user_HWtW4mrQKKkVrt18lxBWomNhew": {
+        "total_commits": 41,
+        "ai_commits": 30,
+        "ai_adoption_rate": 73.17073170731707,
+        "ai_lines": 23336,
+        "manual_lines": 2795,
+        "ai_percentage": 89.30389192912632,
+        "tab_lines": 98,
+        "composer_lines": 23238,
+        "preferred_tool": "Composer"
+      },
+      "user_3ZQUPb62w5KonPuXROI0mp9zlc": {
+        "total_commits": 81,
+        "ai_commits": 41,
+        "ai_adoption_rate": 50.617283950617285,
+        "ai_lines": 4216,
+        "manual_lines": 12328,
+        "ai_percentage": 25.483558994197292,
+        "tab_lines": 1669,
+        "composer_lines": 2547,
+        "preferred_tool": "Composer"
+      },
+      "user_vKoSzMbfkkeaQb3jlXz8FoRSv1": {
+        "total_commits": 10,
+        "ai_commits": 1,
+        "ai_adoption_rate": 10.0,
+        "ai_lines": 678,
+        "manual_lines": 2198,
+        "ai_percentage": 23.57440890125174,
+        "tab_lines": 1,
+        "composer_lines": 677,
+        "preferred_tool": "Composer"
+      },
+      "user_kljUmeFGSZORvSEXf9hV0ydcso": {
+        "total_commits": 17,
+        "ai_commits": 6,
+        "ai_adoption_rate": 35.294117647058826,
+        "ai_lines": 84,
+        "manual_lines": 1983,
+        "ai_percentage": 4.063860667634253,
+        "tab_lines": 84,
+        "composer_lines": 0,
+        "preferred_tool": "Tab"
+      },
+      "user_HWtWuBCnKKkVrt18lxBWomNhew": {
+        "total_commits": 1,
+        "ai_commits": 0,
+        "ai_adoption_rate": 0.0,
+        "ai_lines": 0,
+        "manual_lines": 4,
+        "ai_percentage": 0.0,
+        "tab_lines": 0,
+        "composer_lines": 0,
+        "preferred_tool": "Composer"
+      },
+      "user_NC8cQCEQdDX2odVxNkIM7OjAcL": {
+        "total_commits": 49,
+        "ai_commits": 32,
+        "ai_adoption_rate": 65.3061224489796,
+        "ai_lines": 10618,
+        "manual_lines": 51475,
+        "ai_percentage": 17.100156217286973,
+        "tab_lines": 0,
+        "composer_lines": 10618,
+        "preferred_tool": "Composer"
+      },
+      "user_KrJLD7ic8TeWHg7VDr0YXbuxnl": {
+        "total_commits": 49,
+        "ai_commits": 12,
+        "ai_adoption_rate": 24.489795918367346,
+        "ai_lines": 1385,
+        "manual_lines": 9311,
+        "ai_percentage": 12.948765893792071,
+        "tab_lines": 10,
+        "composer_lines": 1375,
+        "preferred_tool": "Composer"
+      },
+      "user_p9UbAlE0RlrOjMy3k8KoR6fnCA": {
+        "total_commits": 88,
+        "ai_commits": 50,
+        "ai_adoption_rate": 56.81818181818182,
+        "ai_lines": 23376,
+        "manual_lines": 6989,
+        "ai_percentage": 76.98336901037378,
+        "tab_lines": 64,
+        "composer_lines": 23312,
+        "preferred_tool": "Composer"
+      },
+      "user_Uc9XGd01CN4oY7evflauVXRmhI": {
+        "total_commits": 17,
+        "ai_commits": 16,
+        "ai_adoption_rate": 94.11764705882352,
+        "ai_lines": 15941,
+        "manual_lines": 3258,
+        "ai_percentage": 83.03036616490442,
+        "tab_lines": 4,
+        "composer_lines": 15937,
+        "preferred_tool": "Composer"
+      },
+      "user_DtHCxNZRF30OyPh8RxLD2mIC4f": {
+        "total_commits": 13,
+        "ai_commits": 1,
+        "ai_adoption_rate": 7.6923076923076925,
+        "ai_lines": 4,
+        "manual_lines": 176,
+        "ai_percentage": 2.2222222222222223,
+        "tab_lines": 4,
+        "composer_lines": 0,
+        "preferred_tool": "Tab"
+      },
+      "user_9EcMBR3tnf7TbNIU5X9tGAsnpq": {
+        "total_commits": 3,
+        "ai_commits": 2,
+        "ai_adoption_rate": 66.66666666666666,
+        "ai_lines": 4,
+        "manual_lines": 17793,
+        "ai_percentage": 0.022475698151373825,
+        "tab_lines": 4,
+        "composer_lines": 0,
+        "preferred_tool": "Tab"
+      },
+      "user_gbGYUQixW6rbBHhm72AUn9VsTZ": {
+        "total_commits": 65,
+        "ai_commits": 9,
+        "ai_adoption_rate": 13.846153846153847,
+        "ai_lines": 77,
+        "manual_lines": 6577,
+        "ai_percentage": 1.1571986774872258,
+        "tab_lines": 77,
+        "composer_lines": 0,
+        "preferred_tool": "Tab"
+      },
+      "user_nQ383stlXdV4NuqF3pZ9emyzRP": {
+        "total_commits": 3,
+        "ai_commits": 0,
+        "ai_adoption_rate": 0.0,
+        "ai_lines": 0,
+        "manual_lines": 5,
+        "ai_percentage": 0.0,
+        "tab_lines": 0,
+        "composer_lines": 0,
+        "preferred_tool": "Composer"
+      },
+      "user_vKoSNui8kkeaQb3jlXz8FoRSv1": {
+        "total_commits": 6,
+        "ai_commits": 4,
+        "ai_adoption_rate": 66.66666666666666,
+        "ai_lines": 1712,
+        "manual_lines": 4824,
+        "ai_percentage": 26.193390452876375,
+        "tab_lines": 2,
+        "composer_lines": 1710,
+        "preferred_tool": "Composer"
+      },
+      "user_PDSeoiCRpYgZEDXsoNirw3CFhy": {
+        "total_commits": 6,
+        "ai_commits": 6,
+        "ai_adoption_rate": 100.0,
+        "ai_lines": 891,
+        "manual_lines": 1318,
+        "ai_percentage": 40.3349932095971,
+        "tab_lines": 0,
+        "composer_lines": 891,
+        "preferred_tool": "Composer"
+      },
+      "user_hI1NvhLOTbi6OqKAov40hNRsJ3": {
+        "total_commits": 6,
+        "ai_commits": 0,
+        "ai_adoption_rate": 0.0,
+        "ai_lines": 0,
+        "manual_lines": 914,
+        "ai_percentage": 0.0,
+        "tab_lines": 0,
+        "composer_lines": 0,
+        "preferred_tool": "Composer"
+      },
+      "user_tkWBDG3YwGn2FzKlyV5iqodPBN": {
+        "total_commits": 29,
+        "ai_commits": 12,
+        "ai_adoption_rate": 41.37931034482759,
+        "ai_lines": 695,
+        "manual_lines": 99,
+        "ai_percentage": 87.53148614609572,
+        "tab_lines": 0,
+        "composer_lines": 695,
+        "preferred_tool": "Composer"
+      },
+      "user_JmrhSPFbdz9BKxk4wWi6PbhT8l": {
+        "total_commits": 3,
+        "ai_commits": 2,
+        "ai_adoption_rate": 66.66666666666666,
+        "ai_lines": 412,
+        "manual_lines": 2,
+        "ai_percentage": 99.51690821256038,
+        "tab_lines": 0,
+        "composer_lines": 412,
+        "preferred_tool": "Composer"
+      },
+      "user_JmrhnSzbdz9BKxk4wWi6PbhT8l": {
+        "total_commits": 10,
+        "ai_commits": 5,
+        "ai_adoption_rate": 50.0,
+        "ai_lines": 881,
+        "manual_lines": 647,
+        "ai_percentage": 57.65706806282722,
+        "tab_lines": 0,
+        "composer_lines": 881,
+        "preferred_tool": "Composer"
+      },
+      "user_E8NrDdkd8tZ2MpnWvQgml0K8Iy": {
+        "total_commits": 4,
+        "ai_commits": 3,
+        "ai_adoption_rate": 75.0,
+        "ai_lines": 2304,
+        "manual_lines": 20,
+        "ai_percentage": 99.1394148020654,
+        "tab_lines": 0,
+        "composer_lines": 2304,
+        "preferred_tool": "Composer"
+      },
+      "user_Gnb5ZVXIA3T9hSodDx6wqPCR0U": {
+        "total_commits": 15,
+        "ai_commits": 14,
+        "ai_adoption_rate": 93.33333333333333,
+        "ai_lines": 572,
+        "manual_lines": 32,
+        "ai_percentage": 94.70198675496688,
+        "tab_lines": 137,
+        "composer_lines": 435,
+        "preferred_tool": "Composer"
+      },
+      "user_Yh05l9lDjMOuN9hE6mvTbLC7XD": {
+        "total_commits": 163,
+        "ai_commits": 41,
+        "ai_adoption_rate": 25.153374233128833,
+        "ai_lines": 479,
+        "manual_lines": 2895,
+        "ai_percentage": 14.196799051570835,
+        "tab_lines": 72,
+        "composer_lines": 407,
+        "preferred_tool": "Composer"
+      },
+      "user_Cs7PQmXq8D01KmETGkgN4rdwpn": {
+        "total_commits": 5,
+        "ai_commits": 2,
+        "ai_adoption_rate": 40.0,
+        "ai_lines": 4,
+        "manual_lines": 1187,
+        "ai_percentage": 0.33585222502099077,
+        "tab_lines": 4,
+        "composer_lines": 0,
+        "preferred_tool": "Tab"
+      },
+      "user_KrJLDOwR8TeWHg7VDr0YXbuxnl": {
+        "total_commits": 22,
+        "ai_commits": 1,
+        "ai_adoption_rate": 4.545454545454546,
+        "ai_lines": 2,
+        "manual_lines": 10784,
+        "ai_percentage": 0.018542555164101613,
+        "tab_lines": 2,
+        "composer_lines": 0,
+        "preferred_tool": "Tab"
+      },
+      "user_cNE9gIdlLLsrRAMcuZWXgvB16J": {
+        "total_commits": 8,
+        "ai_commits": 1,
+        "ai_adoption_rate": 12.5,
+        "ai_lines": 7,
+        "manual_lines": 1170,
+        "ai_percentage": 0.5947323704333051,
+        "tab_lines": 7,
+        "composer_lines": 0,
+        "preferred_tool": "Tab"
+      },
+      "user_p9UbXKKcRlrOjMy3k8KoR6fnCA": {
+        "total_commits": 150,
+        "ai_commits": 71,
+        "ai_adoption_rate": 47.333333333333336,
+        "ai_lines": 2488,
+        "manual_lines": 5552,
+        "ai_percentage": 30.9452736318408,
+        "tab_lines": 0,
+        "composer_lines": 2488,
+        "preferred_tool": "Composer"
+      },
+      "user_cNE9tPdsLLsrRAMcuZWXgvB16J": {
+        "total_commits": 11,
+        "ai_commits": 1,
+        "ai_adoption_rate": 9.090909090909092,
+        "ai_lines": 1,
+        "manual_lines": 9151,
+        "ai_percentage": 0.010926573426573426,
+        "tab_lines": 1,
+        "composer_lines": 0,
+        "preferred_tool": "Tab"
+      },
+      "user_9EcM14kznf7TbNIU5X9tGAsnpq": {
+        "total_commits": 27,
+        "ai_commits": 17,
+        "ai_adoption_rate": 62.96296296296296,
+        "ai_lines": 2127,
+        "manual_lines": 3319,
+        "ai_percentage": 39.056188027910395,
+        "tab_lines": 22,
+        "composer_lines": 2105,
+        "preferred_tool": "Composer"
+      },
+      "user_vKoStLzmkkeaQb3jlXz8FoRSv1": {
+        "total_commits": 5,
+        "ai_commits": 0,
+        "ai_adoption_rate": 0.0,
+        "ai_lines": 0,
+        "manual_lines": 1122,
+        "ai_percentage": 0.0,
+        "tab_lines": 0,
+        "composer_lines": 0,
+        "preferred_tool": "Composer"
+      },
+      "user_tkWz3bQ2wGn2FzKlyV5iqodPBN": {
+        "total_commits": 15,
+        "ai_commits": 3,
+        "ai_adoption_rate": 20.0,
+        "ai_lines": 158,
+        "manual_lines": 592,
+        "ai_percentage": 21.066666666666666,
+        "tab_lines": 0,
+        "composer_lines": 158,
+        "preferred_tool": "Composer"
+      },
+      "user_tkWzQu1iwGn2FzKlyV5iqodPBN": {
+        "total_commits": 6,
+        "ai_commits": 2,
+        "ai_adoption_rate": 33.33333333333333,
+        "ai_lines": 2,
+        "manual_lines": 7,
+        "ai_percentage": 22.22222222222222,
+        "tab_lines": 0,
+        "composer_lines": 2,
+        "preferred_tool": "Composer"
+      },
+      "user_oJKyfrPvKmqwsOut78Xrf3pbMC": {
+        "total_commits": 12,
+        "ai_commits": 4,
+        "ai_adoption_rate": 33.33333333333333,
+        "ai_lines": 26,
+        "manual_lines": 1942,
+        "ai_percentage": 1.321138211382114,
+        "tab_lines": 0,
+        "composer_lines": 26,
+        "preferred_tool": "Composer"
+      },
+      "user_Cs7PKGM78D01KmETGkgN4rdwpn": {
+        "total_commits": 42,
+        "ai_commits": 38,
+        "ai_adoption_rate": 90.47619047619048,
+        "ai_lines": 1857,
+        "manual_lines": 841,
+        "ai_percentage": 68.82876204595996,
+        "tab_lines": 0,
+        "composer_lines": 1857,
+        "preferred_tool": "Composer"
+      },
+      "user_Yh0riWH1jMOuN9hE6mvTbLC7XD": {
+        "total_commits": 2,
+        "ai_commits": 2,
+        "ai_adoption_rate": 100.0,
+        "ai_lines": 3390,
+        "manual_lines": 0,
+        "ai_percentage": 100.0,
+        "tab_lines": 0,
+        "composer_lines": 3390,
+        "preferred_tool": "Composer"
+      },
+      "user_mweaxh3B60dEHyUoRLgn4JGzNe": {
+        "total_commits": 6,
+        "ai_commits": 0,
+        "ai_adoption_rate": 0.0,
+        "ai_lines": 0,
+        "manual_lines": 187,
+        "ai_percentage": 0.0,
+        "tab_lines": 0,
+        "composer_lines": 0,
+        "preferred_tool": "Composer"
+      },
+      "user_uqFddzUkhkTAlUndIOr3e8YE1x": {
+        "total_commits": 1,
+        "ai_commits": 0,
+        "ai_adoption_rate": 0.0,
+        "ai_lines": 0,
+        "manual_lines": 2020,
+        "ai_percentage": 0.0,
+        "tab_lines": 0,
+        "composer_lines": 0,
+        "preferred_tool": "Composer"
+      },
+      "user_Yh0rcKm8jMOuN9hE6mvTbLC7XD": {
+        "total_commits": 1,
+        "ai_commits": 0,
+        "ai_adoption_rate": 0.0,
+        "ai_lines": 0,
+        "manual_lines": 171,
+        "ai_percentage": 0.0,
+        "tab_lines": 0,
+        "composer_lines": 0,
+        "preferred_tool": "Composer"
+      },
+      "user_Uc9X12BNCN4oY7evflauVXRmhI": {
+        "total_commits": 2,
+        "ai_commits": 0,
+        "ai_adoption_rate": 0.0,
+        "ai_lines": 0,
+        "manual_lines": 45,
+        "ai_percentage": 0.0,
+        "tab_lines": 0,
+        "composer_lines": 0,
+        "preferred_tool": "Composer"
+      }
+    }
+  },
+  "temporal_patterns": {
+    "daily_patterns": {
+      "avg_daily_ai_ratio": 0.316328832025787,
+      "trend_direction": "decreasing",
+      "most_productive_day": "2025-10-28",
+      "daily_data": {}
+    },
+    "hourly_patterns": {
+      "peak_ai_hour": 19,
+      "hourly_distribution": {
+        "0": 21600,
+        "1": 3603,
+        "2": 5633,
+        "3": 2652,
+        "4": 9717,
+        "5": 2115,
+        "6": 2390,
+        "7": 4,
+        "8": 0,
+        "9": 15,
+        "10": 17,
+        "11": 14,
+        "12": 1538,
+        "13": 4842,
+        "14": 1340,
+        "15": 7111,
+        "16": 10953,
+        "17": 8874,
+        "18": 3186,
+        "19": 26020,
+        "20": 17127,
+        "21": 9280,
+        "22": 5905,
+        "23": 13643
+      }
+    },
+    "weekly_patterns": {
+      "most_ai_productive_day": "Wednesday",
+      "weekly_distribution": {
+        "Friday": 18591,
+        "Monday": 20226,
+        "Saturday": 13939,
+        "Sunday": 15832,
+        "Thursday": 25461,
+        "Tuesday": 30968,
+        "Wednesday": 32562
+      }
+    }
+  },
+  "repository_patterns": {
+    "repository_analysis": {
+      "CFSW-Cloud/pdm-data-processor": {
+        "total_commits": 22,
+        "ai_commits": 2,
+        "ai_adoption_rate": 9.090909090909092,
+        "ai_lines": 92,
+        "manual_lines": 315,
+        "ai_percentage": 22.604422604422606
+      },
+      "": {
+        "total_commits": 842,
+        "ai_commits": 302,
+        "ai_adoption_rate": 35.86698337292161,
+        "ai_lines": 62560,
+        "manual_lines": 171583,
+        "ai_percentage": 26.71871463165672
+      },
+      "Insulet-CloudOps/EKS-SonarQube-Runners": {
+        "total_commits": 18,
+        "ai_commits": 3,
+        "ai_adoption_rate": 16.666666666666664,
+        "ai_lines": 49,
+        "manual_lines": 2849,
+        "ai_percentage": 1.6908212560386473
+      },
+      "CFSW-Cloud/pdm-data-receiver": {
+        "total_commits": 21,
+        "ai_commits": 5,
+        "ai_adoption_rate": 23.809523809523807,
+        "ai_lines": 91,
+        "manual_lines": 338,
+        "ai_percentage": 21.21212121212121
+      },
+      "CFSW-Cloud/cloud-releases": {
+        "total_commits": 19,
+        "ai_commits": 5,
+        "ai_adoption_rate": 26.31578947368421,
+        "ai_lines": 56,
+        "manual_lines": 453,
+        "ai_percentage": 11.00196463654224
+      },
+      "CFSW-Cloud/Cloud-Reference-Pipeline": {
+        "total_commits": 216,
+        "ai_commits": 101,
+        "ai_adoption_rate": 46.75925925925926,
+        "ai_lines": 3021,
+        "manual_lines": 7017,
+        "ai_percentage": 30.09563658099223
+      },
+      "CFSW-Cloud/op5-tls": {
+        "total_commits": 18,
+        "ai_commits": 3,
+        "ai_adoption_rate": 16.666666666666664,
+        "ai_lines": 36,
+        "manual_lines": 1287,
+        "ai_percentage": 2.7210884353741496
+      },
+      "v3/InsuletAnalytics": {
+        "total_commits": 12,
+        "ai_commits": 7,
+        "ai_adoption_rate": 58.333333333333336,
+        "ai_lines": 34,
+        "manual_lines": 1147,
+        "ai_percentage": 2.87891617273497
+      },
+      "Enterprise-SRE/sre-scaffold-python": {
+        "total_commits": 2,
+        "ai_commits": 1,
+        "ai_adoption_rate": 50.0,
+        "ai_lines": 746,
+        "manual_lines": 211,
+        "ai_percentage": 77.95193312434692
+      },
+      "CFSW-Cloud/perf-test-framework": {
+        "total_commits": 40,
+        "ai_commits": 10,
+        "ai_adoption_rate": 25.0,
+        "ai_lines": 4873,
+        "manual_lines": 3965,
+        "ai_percentage": 55.13690880289658
+      },
+      "InsuletAnalytics/Algorithms": {
+        "total_commits": 5,
+        "ai_commits": 0,
+        "ai_adoption_rate": 0.0,
+        "ai_lines": 0,
+        "manual_lines": 3939,
+        "ai_percentage": 0.0
+      },
+      "Enterprise-SRE/sre-central-ui": {
+        "total_commits": 27,
+        "ai_commits": 14,
+        "ai_adoption_rate": 51.85185185185185,
+        "ai_lines": 9112,
+        "manual_lines": 31545,
+        "ai_percentage": 22.411884792286692
+      },
+      "Enterprise-SRE/sre-oracle-api": {
+        "total_commits": 6,
+        "ai_commits": 5,
+        "ai_adoption_rate": 83.33333333333334,
+        "ai_lines": 7003,
+        "manual_lines": 8363,
+        "ai_percentage": 45.574645320838215
+      },
+      "Enterprise-SRE/sre-cursor-api": {
+        "total_commits": 40,
+        "ai_commits": 34,
+        "ai_adoption_rate": 85.0,
+        "ai_lines": 11231,
+        "manual_lines": 2369,
+        "ai_percentage": 82.58088235294117
+      },
+      "v3/insuletcorp": {
+        "total_commits": 16,
+        "ai_commits": 11,
+        "ai_adoption_rate": 68.75,
+        "ai_lines": 1377,
+        "manual_lines": 605,
+        "ai_percentage": 69.4752774974773
+      },
+      "scm/~rvail": {
+        "total_commits": 5,
+        "ai_commits": 3,
+        "ai_adoption_rate": 60.0,
+        "ai_lines": 156,
+        "manual_lines": 98,
+        "ai_percentage": 61.417322834645674
+      },
+      "scm/~atekik": {
+        "total_commits": 34,
+        "ai_commits": 26,
+        "ai_adoption_rate": 76.47058823529412,
+        "ai_lines": 2862,
+        "manual_lines": 753,
+        "ai_percentage": 79.1701244813278
+      },
+      "Enterprise-SRE/sre-central-api": {
+        "total_commits": 38,
+        "ai_commits": 22,
+        "ai_adoption_rate": 57.89473684210527,
+        "ai_lines": 5205,
+        "manual_lines": 33524,
+        "ai_percentage": 13.439541428903407
+      },
+      "CFSW-Cloud/apigateway": {
+        "total_commits": 20,
+        "ai_commits": 3,
+        "ai_adoption_rate": 15.0,
+        "ai_lines": 667,
+        "manual_lines": 928,
+        "ai_percentage": 41.81818181818181
+      },
+      "CFSW-Cloud/mobile-gateway": {
+        "total_commits": 3,
+        "ai_commits": 3,
+        "ai_adoption_rate": 100.0,
+        "ai_lines": 8853,
+        "manual_lines": 3865,
+        "ai_percentage": 69.6100015725743
+      },
+      "CFSW-Cloud/pdm-provisioning": {
+        "total_commits": 7,
+        "ai_commits": 0,
+        "ai_adoption_rate": 0.0,
+        "ai_lines": 0,
+        "manual_lines": 42,
+        "ai_percentage": 0.0
+      },
+      "omar2057/shoes-store": {
+        "total_commits": 3,
+        "ai_commits": 3,
+        "ai_adoption_rate": 100.0,
+        "ai_lines": 8314,
+        "manual_lines": 2414,
+        "ai_percentage": 77.49813571961222
+      },
+      "Insulet-CloudOps/Omnipod-RDS-Cluster": {
+        "total_commits": 13,
+        "ai_commits": 6,
+        "ai_adoption_rate": 46.15384615384615,
+        "ai_lines": 28,
+        "manual_lines": 1837,
+        "ai_percentage": 1.5013404825737267
+      },
+      "Enterprise-SRE/engineering-console": {
+        "total_commits": 4,
+        "ai_commits": 3,
+        "ai_adoption_rate": 75.0,
+        "ai_lines": 616,
+        "manual_lines": 2407,
+        "ai_percentage": 20.37710883228581
+      },
+      "Enterprise-SRE/sre-cloud-agent-api": {
+        "total_commits": 20,
+        "ai_commits": 8,
+        "ai_adoption_rate": 40.0,
+        "ai_lines": 56,
+        "manual_lines": 2129,
+        "ai_percentage": 2.5629290617848968
+      },
+      "CFSW-Cloud/view": {
+        "total_commits": 9,
+        "ai_commits": 4,
+        "ai_adoption_rate": 44.44444444444444,
+        "ai_lines": 14,
+        "manual_lines": 64,
+        "ai_percentage": 17.94871794871795
+      },
+      "Enterprise-SRE/sre-service-insights-agent": {
+        "total_commits": 4,
+        "ai_commits": 3,
+        "ai_adoption_rate": 75.0,
+        "ai_lines": 714,
+        "manual_lines": 1202,
+        "ai_percentage": 37.265135699373694
+      },
+      "CFSW-Cloud/gradle-plugin-library": {
+        "total_commits": 17,
+        "ai_commits": 11,
+        "ai_adoption_rate": 64.70588235294117,
+        "ai_lines": 271,
+        "manual_lines": 158,
+        "ai_percentage": 63.17016317016317
+      },
+      "CFSW-Cloud/cloud-tfvars": {
+        "total_commits": 2,
+        "ai_commits": 0,
+        "ai_adoption_rate": 0.0,
+        "ai_lines": 0,
+        "manual_lines": 2,
+        "ai_percentage": 0.0
+      },
+      "CFSW-Cloud/audit-log-etl": {
+        "total_commits": 2,
+        "ai_commits": 1,
+        "ai_adoption_rate": 50.0,
+        "ai_lines": 1,
+        "manual_lines": 33,
+        "ai_percentage": 2.941176470588235
+      },
+      "CFSW-Cloud/device-auth": {
+        "total_commits": 2,
+        "ai_commits": 1,
+        "ai_adoption_rate": 50.0,
+        "ai_lines": 9,
+        "manual_lines": 23,
+        "ai_percentage": 28.125
+      },
+      "scm/swt": {
+        "total_commits": 4,
+        "ai_commits": 3,
+        "ai_adoption_rate": 75.0,
+        "ai_lines": 2304,
+        "manual_lines": 20,
+        "ai_percentage": 99.1394148020654
+      },
+      "CFSW-Cloud/pdm-data-stream": {
+        "total_commits": 18,
+        "ai_commits": 12,
+        "ai_adoption_rate": 66.66666666666666,
+        "ai_lines": 103,
+        "manual_lines": 49,
+        "ai_percentage": 67.76315789473685
+      },
+      "CFSW-Cloud/policy-decision-server": {
+        "total_commits": 3,
+        "ai_commits": 1,
+        "ai_adoption_rate": 33.33333333333333,
+        "ai_lines": 30,
+        "manual_lines": 16,
+        "ai_percentage": 65.21739130434783
+      },
+      "CFSW-Cloud/clinical-export": {
+        "total_commits": 9,
+        "ai_commits": 2,
+        "ai_adoption_rate": 22.22222222222222,
+        "ai_lines": 9,
+        "manual_lines": 75,
+        "ai_percentage": 10.714285714285714
+      },
+      "CFSW-Cloud/token-service": {
+        "total_commits": 6,
+        "ai_commits": 2,
+        "ai_adoption_rate": 33.33333333333333,
+        "ai_lines": 2,
+        "manual_lines": 114,
+        "ai_percentage": 1.7241379310344827
+      },
+      "CFSW-Cloud/notifications-producer": {
+        "total_commits": 14,
+        "ai_commits": 4,
+        "ai_adoption_rate": 28.57142857142857,
+        "ai_lines": 723,
+        "manual_lines": 5981,
+        "ai_percentage": 10.784606205250597
+      },
+      "CFSW-Cloud/admin-service": {
+        "total_commits": 6,
+        "ai_commits": 0,
+        "ai_adoption_rate": 0.0,
+        "ai_lines": 0,
+        "manual_lines": 116,
+        "ai_percentage": 0.0
+      },
+      "CFSW-Cloud/data-api": {
+        "total_commits": 10,
+        "ai_commits": 0,
+        "ai_adoption_rate": 0.0,
+        "ai_lines": 0,
+        "manual_lines": 21,
+        "ai_percentage": 0.0
+      },
+      "CFSW-Cloud/dash-device-logs": {
+        "total_commits": 1,
+        "ai_commits": 1,
+        "ai_adoption_rate": 100.0,
+        "ai_lines": 1,
+        "manual_lines": 3,
+        "ai_percentage": 25.0
+      },
+      "CFSW-Cloud/pdm-data-replay": {
+        "total_commits": 1,
+        "ai_commits": 0,
+        "ai_adoption_rate": 0.0,
+        "ai_lines": 0,
+        "manual_lines": 12,
+        "ai_percentage": 0.0
+      },
+      "CFSW-Cloud/authorization-bridge": {
+        "total_commits": 34,
+        "ai_commits": 2,
+        "ai_adoption_rate": 5.88235294117647,
+        "ai_lines": 176,
+        "manual_lines": 892,
+        "ai_percentage": 16.479400749063668
+      },
+      "CFSW-Cloud/partner-api": {
+        "total_commits": 3,
+        "ai_commits": 1,
+        "ai_adoption_rate": 33.33333333333333,
+        "ai_lines": 1,
+        "manual_lines": 94,
+        "ai_percentage": 1.0526315789473684
+      },
+      "Enterprise-SRE/sre-datadog-agent-api": {
+        "total_commits": 7,
+        "ai_commits": 7,
+        "ai_adoption_rate": 100.0,
+        "ai_lines": 5312,
+        "manual_lines": 3483,
+        "ai_percentage": 60.39795338260375
+      },
+      "CFSW-Cloud/identity-api": {
+        "total_commits": 17,
+        "ai_commits": 2,
+        "ai_adoption_rate": 11.76470588235294,
+        "ai_lines": 5,
+        "manual_lines": 26,
+        "ai_percentage": 16.129032258064516
+      },
+      "CFSW-Cloud/twi-horizon-sdk": {
+        "total_commits": 6,
+        "ai_commits": 1,
+        "ai_adoption_rate": 16.666666666666664,
+        "ai_lines": 1,
+        "manual_lines": 93,
+        "ai_percentage": 1.0638297872340425
+      },
+      "CFSW-Cloud/support": {
+        "total_commits": 4,
+        "ai_commits": 2,
+        "ai_adoption_rate": 50.0,
+        "ai_lines": 2,
+        "manual_lines": 65,
+        "ai_percentage": 2.9850746268656714
+      },
+      "CFSW-Cloud/dynamic-configuration": {
+        "total_commits": 3,
+        "ai_commits": 2,
+        "ai_adoption_rate": 66.66666666666666,
+        "ai_lines": 10,
+        "manual_lines": 3,
+        "ai_percentage": 76.92307692307693
+      },
+      "CFSW-Cloud/upload-services": {
+        "total_commits": 1,
+        "ai_commits": 1,
+        "ai_adoption_rate": 100.0,
+        "ai_lines": 1,
+        "manual_lines": 23,
+        "ai_percentage": 4.166666666666666
+      },
+      "CFSW-Cloud/integrator-notifications-dispatcher": {
+        "total_commits": 1,
+        "ai_commits": 1,
+        "ai_adoption_rate": 100.0,
+        "ai_lines": 1,
+        "manual_lines": 21,
+        "ai_percentage": 4.545454545454546
+      },
+      "CFSW-Cloud/display": {
+        "total_commits": 1,
+        "ai_commits": 1,
+        "ai_adoption_rate": 100.0,
+        "ai_lines": 1,
+        "manual_lines": 55,
+        "ai_percentage": 1.7857142857142856
+      },
+      "CFSW-Cloud/authentication": {
+        "total_commits": 11,
+        "ai_commits": 2,
+        "ai_adoption_rate": 18.181818181818183,
+        "ai_lines": 2,
+        "manual_lines": 13,
+        "ai_percentage": 13.333333333333334
+      },
+      "Insulet-CloudOps/omnipod-twi-cert-renewal": {
+        "total_commits": 15,
+        "ai_commits": 0,
+        "ai_adoption_rate": 0.0,
+        "ai_lines": 0,
+        "manual_lines": 1078,
+        "ai_percentage": 0.0
+      },
+      "CFSW-Cloud/test-containers-library": {
+        "total_commits": 2,
+        "ai_commits": 0,
+        "ai_adoption_rate": 0.0,
+        "ai_lines": 0,
+        "manual_lines": 54,
+        "ai_percentage": 0.0
+      },
+      "CFSW-Cloud/partner-notifications": {
+        "total_commits": 1,
+        "ai_commits": 1,
+        "ai_adoption_rate": 100.0,
+        "ai_lines": 1,
+        "manual_lines": 25,
+        "ai_percentage": 3.8461538461538463
+      },
+      "CFSW-Cloud/dash-manufacturing": {
+        "total_commits": 17,
+        "ai_commits": 0,
+        "ai_adoption_rate": 0.0,
+        "ai_lines": 0,
+        "manual_lines": 23,
+        "ai_percentage": 0.0
+      },
+      "Insulet-CloudOps/iq-infrastructure-validation": {
+        "total_commits": 6,
+        "ai_commits": 0,
+        "ai_adoption_rate": 0.0,
+        "ai_lines": 0,
+        "manual_lines": 639,
+        "ai_percentage": 0.0
+      },
+      "CFSW-Cloud-Sandbox/Cloud-Reference-Pipeline": {
+        "total_commits": 8,
+        "ai_commits": 4,
+        "ai_adoption_rate": 50.0,
+        "ai_lines": 1847,
+        "manual_lines": 855,
+        "ai_percentage": 68.35677276091783
+      },
+      "CFSW-Devops-Sandbox/migration-via-actions": {
+        "total_commits": 31,
+        "ai_commits": 26,
+        "ai_adoption_rate": 83.87096774193549,
+        "ai_lines": 1309,
+        "manual_lines": 46,
+        "ai_percentage": 96.60516605166052
+      },
+      "CFSW-Cloud/ApiGateway": {
+        "total_commits": 2,
+        "ai_commits": 0,
+        "ai_adoption_rate": 0.0,
+        "ai_lines": 0,
+        "manual_lines": 8,
+        "ai_percentage": 0.0
+      },
+      "dwashington-insulet/clinical-phbaudit-log-tool": {
+        "total_commits": 28,
+        "ai_commits": 25,
+        "ai_adoption_rate": 89.28571428571429,
+        "ai_lines": 753,
+        "manual_lines": 670,
+        "ai_percentage": 52.916373858046384
+      },
+      "CFSW-Cloud-Sandbox/dash-device": {
+        "total_commits": 2,
+        "ai_commits": 1,
+        "ai_adoption_rate": 50.0,
+        "ai_lines": 5,
+        "manual_lines": 0,
+        "ai_percentage": 100.0
+      },
+      "CFSW-Cloud-Sandbox/PDM-Provisioning": {
+        "total_commits": 3,
+        "ai_commits": 1,
+        "ai_adoption_rate": 33.33333333333333,
+        "ai_lines": 25,
+        "manual_lines": 157,
+        "ai_percentage": 13.736263736263737
+      },
+      "CFSW-Cloud-Sandbox/PDM-Data-Receiver": {
+        "total_commits": 43,
+        "ai_commits": 5,
+        "ai_adoption_rate": 11.627906976744185,
+        "ai_lines": 1598,
+        "manual_lines": 381,
+        "ai_percentage": 80.7478524507327
+      },
+      "CFSW-Cloud-Sandbox/Update-Service": {
+        "total_commits": 1,
+        "ai_commits": 1,
+        "ai_adoption_rate": 100.0,
+        "ai_lines": 7,
+        "manual_lines": 25,
+        "ai_percentage": 21.875
+      },
+      "CFSW-Cloud-Sandbox/TWI-Horizon-SDK": {
+        "total_commits": 8,
+        "ai_commits": 1,
+        "ai_adoption_rate": 12.5,
+        "ai_lines": 5,
+        "manual_lines": 328,
+        "ai_percentage": 1.5015015015015014
+      },
+      "CFSW-Cloud-Sandbox/data-api": {
+        "total_commits": 2,
+        "ai_commits": 2,
+        "ai_adoption_rate": 100.0,
+        "ai_lines": 20,
+        "manual_lines": 0,
+        "ai_percentage": 100.0
+      },
+      "CFSW-Cloud-Sandbox/Token-Service": {
+        "total_commits": 1,
+        "ai_commits": 1,
+        "ai_adoption_rate": 100.0,
+        "ai_lines": 5,
+        "manual_lines": 0,
+        "ai_percentage": 100.0
+      },
+      "CFSW-Cloud-Sandbox/data-integrity-tool": {
+        "total_commits": 2,
+        "ai_commits": 0,
+        "ai_adoption_rate": 0.0,
+        "ai_lines": 0,
+        "manual_lines": 58,
+        "ai_percentage": 0.0
+      },
+      "CFSW-Cloud-Sandbox/partner-notifications": {
+        "total_commits": 1,
+        "ai_commits": 1,
+        "ai_adoption_rate": 100.0,
+        "ai_lines": 5,
+        "manual_lines": 0,
+        "ai_percentage": 100.0
+      },
+      "CFSW-Cloud-Sandbox/device-auth": {
+        "total_commits": 1,
+        "ai_commits": 1,
+        "ai_adoption_rate": 100.0,
+        "ai_lines": 5,
+        "manual_lines": 0,
+        "ai_percentage": 100.0
+      },
+      "jBhatiaInsulet/jbhatiaInsulet.github.io": {
+        "total_commits": 3,
+        "ai_commits": 0,
+        "ai_adoption_rate": 0.0,
+        "ai_lines": 0,
+        "manual_lines": 194,
+        "ai_percentage": 0.0
+      },
+      "CFSW-Cloud-Sandbox/cloud-tfvars": {
+        "total_commits": 14,
+        "ai_commits": 3,
+        "ai_adoption_rate": 21.428571428571427,
+        "ai_lines": 28,
+        "manual_lines": 13682,
+        "ai_percentage": 0.20423048869438365
+      },
+      "CFSW-Cloud-Sandbox/authentication": {
+        "total_commits": 2,
+        "ai_commits": 2,
+        "ai_adoption_rate": 100.0,
+        "ai_lines": 4,
+        "manual_lines": 58,
+        "ai_percentage": 6.451612903225806
+      },
+      "CFSW-Cloud-Sandbox/notifications-producer": {
+        "total_commits": 1,
+        "ai_commits": 0,
+        "ai_adoption_rate": 0.0,
+        "ai_lines": 0,
+        "manual_lines": 712,
+        "ai_percentage": 0.0
+      },
+      "CFSW-Cloud-Sandbox/PDM-Data-Stream": {
+        "total_commits": 1,
+        "ai_commits": 1,
+        "ai_adoption_rate": 100.0,
+        "ai_lines": 12,
+        "manual_lines": 3,
+        "ai_percentage": 80.0
+      },
+      "CFSW-Cloud-Sandbox/Data-Share": {
+        "total_commits": 1,
+        "ai_commits": 1,
+        "ai_adoption_rate": 100.0,
+        "ai_lines": 5,
+        "manual_lines": 0,
+        "ai_percentage": 100.0
+      },
+      "CFSW-Cloud-Sandbox/PDM-Data-Processor": {
+        "total_commits": 1,
+        "ai_commits": 1,
+        "ai_adoption_rate": 100.0,
+        "ai_lines": 5,
+        "manual_lines": 0,
+        "ai_percentage": 100.0
+      },
+      "CFSW-Cloud-Sandbox/view": {
+        "total_commits": 1,
+        "ai_commits": 1,
+        "ai_adoption_rate": 100.0,
+        "ai_lines": 5,
+        "manual_lines": 0,
+        "ai_percentage": 100.0
+      },
+      "Insulet-CloudOps/Omnipod-study-report-processes": {
+        "total_commits": 15,
+        "ai_commits": 0,
+        "ai_adoption_rate": 0.0,
+        "ai_lines": 0,
+        "manual_lines": 190,
+        "ai_percentage": 0.0
+      },
+      "CFSW-Cloud-Sandbox/Clinical-Export": {
+        "total_commits": 8,
+        "ai_commits": 0,
+        "ai_adoption_rate": 0.0,
+        "ai_lines": 0,
+        "manual_lines": 221,
+        "ai_percentage": 0.0
+      },
+      "CFSW-Cloud-Sandbox/op5-tls": {
+        "total_commits": 1,
+        "ai_commits": 1,
+        "ai_adoption_rate": 100.0,
+        "ai_lines": 6,
+        "manual_lines": 103,
+        "ai_percentage": 5.5045871559633035
+      },
+      "CFSW-Cloud-Sandbox/Identity-API": {
+        "total_commits": 1,
+        "ai_commits": 0,
+        "ai_adoption_rate": 0.0,
+        "ai_lines": 0,
+        "manual_lines": 68,
+        "ai_percentage": 0.0
+      },
+      "CFSW-Cloud-Sandbox/integrator-notifications-dispatcher": {
+        "total_commits": 2,
+        "ai_commits": 2,
+        "ai_adoption_rate": 100.0,
+        "ai_lines": 18,
+        "manual_lines": 100,
+        "ai_percentage": 15.254237288135593
+      },
+      "CFSW-Platform-Engineering/Platform-Engineering-Utilities": {
+        "total_commits": 4,
+        "ai_commits": 3,
+        "ai_adoption_rate": 75.0,
+        "ai_lines": 746,
+        "manual_lines": 399,
+        "ai_percentage": 65.1528384279476
+      },
+      "CFSW-Cloud-Sandbox/ApiGateway": {
+        "total_commits": 3,
+        "ai_commits": 2,
+        "ai_adoption_rate": 66.66666666666666,
+        "ai_lines": 18,
+        "manual_lines": 732,
+        "ai_percentage": 2.4
+      },
+      "CFSW-Cloud-Sandbox/Admin-Service": {
+        "total_commits": 2,
+        "ai_commits": 1,
+        "ai_adoption_rate": 50.0,
+        "ai_lines": 24,
+        "manual_lines": 99,
+        "ai_percentage": 19.51219512195122
+      },
+      "CFSW-Platform-Engineering/team-docs": {
+        "total_commits": 1,
+        "ai_commits": 0,
+        "ai_adoption_rate": 0.0,
+        "ai_lines": 0,
+        "manual_lines": 936,
+        "ai_percentage": 0.0
+      },
+      "mtrevinois/cs-hub": {
+        "total_commits": 1,
+        "ai_commits": 0,
+        "ai_adoption_rate": 0.0,
+        "ai_lines": 0,
+        "manual_lines": 171,
+        "ai_percentage": 0.0
+      },
+      "CFSW-Cloud-Sandbox/PDM-Data-Replay": {
+        "total_commits": 5,
+        "ai_commits": 0,
+        "ai_adoption_rate": 0.0,
+        "ai_lines": 0,
+        "manual_lines": 78,
+        "ai_percentage": 0.0
+      },
+      "CFSW-Cloud-Sandbox/mobile-gateway": {
+        "total_commits": 4,
+        "ai_commits": 3,
+        "ai_adoption_rate": 75.0,
+        "ai_lines": 13773,
+        "manual_lines": 1732,
+        "ai_percentage": 88.82940986778458
+      },
+      "alcasfra/Kalman-Filter": {
+        "total_commits": 1,
+        "ai_commits": 1,
+        "ai_adoption_rate": 100.0,
+        "ai_lines": 8,
+        "manual_lines": 2058,
+        "ai_percentage": 0.3872216844143272
+      },
+      "CFSW-Devops-Sandbox/terraform_mvp": {
+        "total_commits": 7,
+        "ai_commits": 5,
+        "ai_adoption_rate": 71.42857142857143,
+        "ai_lines": 611,
+        "manual_lines": 26,
+        "ai_percentage": 95.91836734693877
+      }
+    },
+    "top_ai_repositories": {
+      "": {
+        "total_commits": 842,
+        "ai_commits": 302,
+        "ai_adoption_rate": 35.86698337292161,
+        "ai_lines": 62560,
+        "manual_lines": 171583,
+        "ai_percentage": 26.71871463165672
+      },
+      "CFSW-Cloud-Sandbox/mobile-gateway": {
+        "total_commits": 4,
+        "ai_commits": 3,
+        "ai_adoption_rate": 75.0,
+        "ai_lines": 13773,
+        "manual_lines": 1732,
+        "ai_percentage": 88.82940986778458
+      },
+      "Enterprise-SRE/sre-cursor-api": {
+        "total_commits": 40,
+        "ai_commits": 34,
+        "ai_adoption_rate": 85.0,
+        "ai_lines": 11231,
+        "manual_lines": 2369,
+        "ai_percentage": 82.58088235294117
+      },
+      "Enterprise-SRE/sre-central-ui": {
+        "total_commits": 27,
+        "ai_commits": 14,
+        "ai_adoption_rate": 51.85185185185185,
+        "ai_lines": 9112,
+        "manual_lines": 31545,
+        "ai_percentage": 22.411884792286692
+      },
+      "CFSW-Cloud/mobile-gateway": {
+        "total_commits": 3,
+        "ai_commits": 3,
+        "ai_adoption_rate": 100.0,
+        "ai_lines": 8853,
+        "manual_lines": 3865,
+        "ai_percentage": 69.6100015725743
+      },
+      "omar2057/shoes-store": {
+        "total_commits": 3,
+        "ai_commits": 3,
+        "ai_adoption_rate": 100.0,
+        "ai_lines": 8314,
+        "manual_lines": 2414,
+        "ai_percentage": 77.49813571961222
+      },
+      "Enterprise-SRE/sre-oracle-api": {
+        "total_commits": 6,
+        "ai_commits": 5,
+        "ai_adoption_rate": 83.33333333333334,
+        "ai_lines": 7003,
+        "manual_lines": 8363,
+        "ai_percentage": 45.574645320838215
+      },
+      "Enterprise-SRE/sre-datadog-agent-api": {
+        "total_commits": 7,
+        "ai_commits": 7,
+        "ai_adoption_rate": 100.0,
+        "ai_lines": 5312,
+        "manual_lines": 3483,
+        "ai_percentage": 60.39795338260375
+      },
+      "Enterprise-SRE/sre-central-api": {
+        "total_commits": 38,
+        "ai_commits": 22,
+        "ai_adoption_rate": 57.89473684210527,
+        "ai_lines": 5205,
+        "manual_lines": 33524,
+        "ai_percentage": 13.439541428903407
+      },
+      "CFSW-Cloud/perf-test-framework": {
+        "total_commits": 40,
+        "ai_commits": 10,
+        "ai_adoption_rate": 25.0,
+        "ai_lines": 4873,
+        "manual_lines": 3965,
+        "ai_percentage": 55.13690880289658
+      }
+    },
+    "summary": {
+      "total_repositories": 93,
+      "avg_repo_ai_percentage": 32.12155960667183,
+      "high_ai_repos": 36
+    }
+  }
+}

@@ -1,0 +1,448 @@
+{
+  "generated_at": "2025-11-10T10:25:20.509557",
+  "date_range": {
+    "first_date": "2025-09-03",
+    "last_date": "2025-11-09",
+    "days_of_data": 67
+  },
+  "lifecycle": {
+    "total_users": 131,
+    "active_users": 123,
+    "days_of_data": 67,
+    "first_date": "2025-09-03",
+    "last_date": "2025-11-09",
+    "agent_requests": 13943,
+    "chat_requests": 824,
+    "cmdk_usages": 185,
+    "composer_requests": 1221,
+    "tabs_shown": 46374,
+    "tabs_accepted": 9932,
+    "tab_accept_rate": 21.4
+  },
+  "last_30_days": {
+    "total_users": 130,
+    "active_users": 122,
+    "days_of_data": 29,
+    "agent_requests": 9269,
+    "chat_requests": 628,
+    "cmdk_usages": 89,
+    "composer_requests": 1162,
+    "tabs_shown": 28135,
+    "tabs_accepted": 6359,
+    "tab_accept_rate": 22.6
+  },
+  "last_7_days": {
+    "total_users": 130,
+    "active_users": 83,
+    "days_of_data": 7,
+    "agent_requests": 2940,
+    "chat_requests": 247,
+    "cmdk_usages": 24,
+    "composer_requests": 515,
+    "tabs_shown": 8995,
+    "tabs_accepted": 1983,
+    "tab_accept_rate": 22.0
+  },
+  "weekly_trends": [
+    {
+      "week": "2025-W35",
+      "week_start": "2025-09-03",
+      "week_end": "2025-09-07",
+      "active_users": 8,
+      "agent_requests": 52,
+      "chat_requests": 0,
+      "cmdk_usages": 0,
+      "tabs_shown": 24,
+      "tabs_accepted": 2,
+      "tab_accept_rate": 8.3
+    },
+    {
+      "week": "2025-W36",
+      "week_start": "2025-09-08",
+      "week_end": "2025-09-14",
+      "active_users": 45,
+      "agent_requests": 197,
+      "chat_requests": 3,
+      "cmdk_usages": 3,
+      "tabs_shown": 417,
+      "tabs_accepted": 53,
+      "tab_accept_rate": 12.7
+    },
+    {
+      "week": "2025-W37",
+      "week_start": "2025-09-15",
+      "week_end": "2025-09-21",
+      "active_users": 51,
+      "agent_requests": 799,
+      "chat_requests": 66,
+      "cmdk_usages": 22,
+      "tabs_shown": 2339,
+      "tabs_accepted": 400,
+      "tab_accept_rate": 17.1
+    },
+    {
+      "week": "2025-W38",
+      "week_start": "2025-09-22",
+      "week_end": "2025-09-28",
+      "active_users": 66,
+      "agent_requests": 1027,
+      "chat_requests": 43,
+      "cmdk_usages": 13,
+      "tabs_shown": 2961,
+      "tabs_accepted": 613,
+      "tab_accept_rate": 20.7
+    },
+    {
+      "week": "2025-W39",
+      "week_start": "2025-09-29",
+      "week_end": "2025-10-05",
+      "active_users": 85,
+      "agent_requests": 1148,
+      "chat_requests": 43,
+      "cmdk_usages": 18,
+      "tabs_shown": 6764,
+      "tabs_accepted": 1399,
+      "tab_accept_rate": 20.7
+    },
+    {
+      "week": "2025-W40",
+      "week_start": "2025-10-06",
+      "week_end": "2025-10-12",
+      "active_users": 90,
+      "agent_requests": 1492,
+      "chat_requests": 45,
+      "cmdk_usages": 41,
+      "tabs_shown": 5925,
+      "tabs_accepted": 1181,
+      "tab_accept_rate": 19.9
+    },
+    {
+      "week": "2025-W41",
+      "week_start": "2025-10-13",
+      "week_end": "2025-10-19",
+      "active_users": 105,
+      "agent_requests": 2111,
+      "chat_requests": 185,
+      "cmdk_usages": 45,
+      "tabs_shown": 8996,
+      "tabs_accepted": 2394,
+      "tab_accept_rate": 26.6
+    },
+    {
+      "week": "2025-W42",
+      "week_start": "2025-10-21",
+      "week_end": "2025-10-26",
+      "active_users": 113,
+      "agent_requests": 1676,
+      "chat_requests": 86,
+      "cmdk_usages": 10,
+      "tabs_shown": 5097,
+      "tabs_accepted": 932,
+      "tab_accept_rate": 18.3
+    },
+    {
+      "week": "2025-W43",
+      "week_start": "2025-10-27",
+      "week_end": "2025-11-02",
+      "active_users": 116,
+      "agent_requests": 2501,
+      "chat_requests": 106,
+      "cmdk_usages": 9,
+      "tabs_shown": 4856,
+      "tabs_accepted": 975,
+      "tab_accept_rate": 20.1
+    },
+    {
+      "week": "2025-W44",
+      "week_start": "2025-11-03",
+      "week_end": "2025-11-09",
+      "active_users": 130,
+      "agent_requests": 2940,
+      "chat_requests": 247,
+      "cmdk_usages": 24,
+      "tabs_shown": 8995,
+      "tabs_accepted": 1983,
+      "tab_accept_rate": 22.0
+    }
+  ],
+  "model_usage": [
+    {
+      "model": "default",
+      "usage_count": 607,
+      "unique_users": 77,
+      "percentage": 44.6
+    },
+    {
+      "model": "claude-4-sonnet-thinking",
+      "usage_count": 288,
+      "unique_users": 57,
+      "percentage": 21.2
+    },
+    {
+      "model": "claude-4.5-sonnet-thinking",
+      "usage_count": 256,
+      "unique_users": 37,
+      "percentage": 18.8
+    },
+    {
+      "model": "gpt-5",
+      "usage_count": 87,
+      "unique_users": 7,
+      "percentage": 6.4
+    },
+    {
+      "model": "gemini-2.5-pro",
+      "usage_count": 46,
+      "unique_users": 5,
+      "percentage": 3.4
+    },
+    {
+      "model": "composer-1",
+      "usage_count": 23,
+      "unique_users": 5,
+      "percentage": 1.7
+    },
+    {
+      "model": "claude-4-sonnet",
+      "usage_count": 20,
+      "unique_users": 5,
+      "percentage": 1.5
+    },
+    {
+      "model": "gpt-5-codex",
+      "usage_count": 15,
+      "unique_users": 3,
+      "percentage": 1.1
+    },
+    {
+      "model": "gpt-5-high",
+      "usage_count": 6,
+      "unique_users": 2,
+      "percentage": 0.4
+    },
+    {
+      "model": "claude-3.5-sonnet",
+      "usage_count": 4,
+      "unique_users": 1,
+      "percentage": 0.3
+    },
+    {
+      "model": "claude-4.5-sonnet",
+      "usage_count": 3,
+      "unique_users": 1,
+      "percentage": 0.2
+    },
+    {
+      "model": "gpt-5-fast",
+      "usage_count": 2,
+      "unique_users": 1,
+      "percentage": 0.1
+    },
+    {
+      "model": "claude-4.5-haiku-thinking",
+      "usage_count": 1,
+      "unique_users": 1,
+      "percentage": 0.1
+    },
+    {
+      "model": "gpt-5-high-fast",
+      "usage_count": 1,
+      "unique_users": 1,
+      "percentage": 0.1
+    },
+    {
+      "model": "grok-code-fast-1",
+      "usage_count": 1,
+      "unique_users": 1,
+      "percentage": 0.1
+    }
+  ],
+  "top_users": [
+    {
+      "email": "jsantibanez@insulet.com",
+      "active_days": 15,
+      "agent_requests": 688,
+      "chat_requests": 46,
+      "tabs_accepted": 0,
+      "most_used_model": "claude-4-sonnet-thinking"
+    },
+    {
+      "email": "abutman@insulet.com",
+      "active_days": 26,
+      "agent_requests": 600,
+      "chat_requests": 0,
+      "tabs_accepted": 228,
+      "most_used_model": "gpt-5"
+    },
+    {
+      "email": "yberezkin@insulet.com",
+      "active_days": 18,
+      "agent_requests": 514,
+      "chat_requests": 0,
+      "tabs_accepted": 118,
+      "most_used_model": "default"
+    },
+    {
+      "email": "skandroo@insulet.com",
+      "active_days": 28,
+      "agent_requests": 425,
+      "chat_requests": 1,
+      "tabs_accepted": 324,
+      "most_used_model": "default"
+    },
+    {
+      "email": "omontero@insulet.com",
+      "active_days": 33,
+      "agent_requests": 365,
+      "chat_requests": 0,
+      "tabs_accepted": 68,
+      "most_used_model": "gpt-5"
+    },
+    {
+      "email": "bdavis2@insulet.com",
+      "active_days": 24,
+      "agent_requests": 354,
+      "chat_requests": 11,
+      "tabs_accepted": 369,
+      "most_used_model": "default"
+    },
+    {
+      "email": "alucia@insulet.com",
+      "active_days": 22,
+      "agent_requests": 340,
+      "chat_requests": 0,
+      "tabs_accepted": 91,
+      "most_used_model": "default"
+    },
+    {
+      "email": "maranguren@insulet.com",
+      "active_days": 19,
+      "agent_requests": 323,
+      "chat_requests": 0,
+      "tabs_accepted": 64,
+      "most_used_model": "default"
+    },
+    {
+      "email": "brevill@insulet.com",
+      "active_days": 23,
+      "agent_requests": 322,
+      "chat_requests": 0,
+      "tabs_accepted": 27,
+      "most_used_model": "default"
+    },
+    {
+      "email": "rbuchanan@insulet.com",
+      "active_days": 12,
+      "agent_requests": 304,
+      "chat_requests": 0,
+      "tabs_accepted": 2,
+      "most_used_model": "claude-4-sonnet-thinking"
+    },
+    {
+      "email": "jbhatia@insulet.com",
+      "active_days": 27,
+      "agent_requests": 290,
+      "chat_requests": 0,
+      "tabs_accepted": 407,
+      "most_used_model": "default"
+    },
+    {
+      "email": "acasazza@insulet.com",
+      "active_days": 16,
+      "agent_requests": 249,
+      "chat_requests": 0,
+      "tabs_accepted": 0,
+      "most_used_model": "default"
+    },
+    {
+      "email": "bozaslan@insulet.com",
+      "active_days": 10,
+      "agent_requests": 240,
+      "chat_requests": 0,
+      "tabs_accepted": 0,
+      "most_used_model": "default"
+    },
+    {
+      "email": "pvekuh@insulet.com",
+      "active_days": 14,
+      "agent_requests": 223,
+      "chat_requests": 0,
+      "tabs_accepted": 9,
+      "most_used_model": "default"
+    },
+    {
+      "email": "dkobrenski@insulet.com",
+      "active_days": 16,
+      "agent_requests": 221,
+      "chat_requests": 0,
+      "tabs_accepted": 23,
+      "most_used_model": "claude-4.5-sonnet-thinking"
+    },
+    {
+      "email": "smailavarapu@insulet.com",
+      "active_days": 16,
+      "agent_requests": 220,
+      "chat_requests": 0,
+      "tabs_accepted": 6,
+      "most_used_model": "default"
+    },
+    {
+      "email": "lperniciaro@insulet.com",
+      "active_days": 20,
+      "agent_requests": 204,
+      "chat_requests": 51,
+      "tabs_accepted": 27,
+      "most_used_model": "claude-4.5-sonnet-thinking"
+    },
+    {
+      "email": "jtbrown@insulet.com",
+      "active_days": 11,
+      "agent_requests": 201,
+      "chat_requests": 17,
+      "tabs_accepted": 17,
+      "most_used_model": "claude-4-sonnet-thinking"
+    },
+    {
+      "email": "vsatyasravyavadupu@insulet.com",
+      "active_days": 11,
+      "agent_requests": 188,
+      "chat_requests": 0,
+      "tabs_accepted": 0,
+      "most_used_model": "claude-4.5-sonnet-thinking"
+    },
+    {
+      "email": "pruiz@insulet.com",
+      "active_days": 26,
+      "agent_requests": 185,
+      "chat_requests": 19,
+      "tabs_accepted": 1594,
+      "most_used_model": "default"
+    }
+  ],
+  "monthly_comparison": [
+    {
+      "month": "2025-09",
+      "registered_users": 72,
+      "active_users": 58,
+      "agent_requests": 2431,
+      "tabs_accepted": 1491,
+      "days_in_month": 28
+    },
+    {
+      "month": "2025-10",
+      "registered_users": 117,
+      "active_users": 116,
+      "agent_requests": 8309,
+      "tabs_accepted": 6447,
+      "days_in_month": 30
+    },
+    {
+      "month": "2025-11",
+      "registered_users": 130,
+      "active_users": 85,
+      "agent_requests": 3203,
+      "tabs_accepted": 1994,
+      "days_in_month": 9
+    }
+  ]
+}

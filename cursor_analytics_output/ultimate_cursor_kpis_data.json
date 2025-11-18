@@ -1,0 +1,251 @@
+{
+  "lifecycle": {
+    "period": "Entire lifecycle",
+    "generated_at": "2025-10-31T11:56:29.665063",
+    "kpis": {
+      "active_users": 89,
+      "dau_5day": 36,
+      "dau_7day": 27,
+      "agent_lines_accepted": 239121,
+      "tabs_accepted": 6378,
+      "cursor_code_percentage": 18.8
+    },
+    "user_categories": {
+      "any_activity": 92,
+      "ai_activity": 89,
+      "tab_activity": 65,
+      "composer_activity": 3,
+      "chat_activity": 24,
+      "agent_activity": 87,
+      "accepts_activity": 64,
+      "high_activity": 64
+    },
+    "usage_metrics": {
+      "total_lines_added": 1271149,
+      "total_lines_deleted": 170417,
+      "accepted_lines_added": 239121,
+      "accepted_lines_deleted": 35954,
+      "total_applies": 7291,
+      "total_accepts": 5272,
+      "total_rejects": 627,
+      "total_tabs_shown": 29448,
+      "total_tabs_accepted": 6378,
+      "composer_requests": 701,
+      "chat_requests": 414,
+      "agent_requests": 8128,
+      "cmdk_usages": 113,
+      "accept_rate": 72.30832533260184,
+      "tab_accept_rate": 21.658516707416464,
+      "total_ai_requests": 9243,
+      "manual_lines": 1032028
+    },
+    "commits_context": {
+      "ai_lines_from_commits": 157544,
+      "total_lines_from_commits": 480096,
+      "commits_analyzed": 1900
+    },
+    "team_context": {
+      "total_team_size": 116,
+      "team_ai_adoption_rate": 76.7,
+      "team_any_activity_rate": 79.3
+    },
+    "date_range": {
+      "start": "2025-10-01",
+      "end": "2025-10-31",
+      "days_span": 31
+    },
+    "data_sources": {
+      "daily_usage_records": 2892,
+      "commits_available": true,
+      "changes_available": true,
+      "admin_data_available": true
+    }
+  },
+  "last_30_days": {
+    "period": "Last 30 days",
+    "generated_at": "2025-10-31T11:56:29.824721",
+    "kpis": {
+      "active_users": 89,
+      "dau_5day": 36,
+      "dau_7day": 27,
+      "agent_lines_accepted": 234976,
+      "tabs_accepted": 6090,
+      "cursor_code_percentage": 18.7
+    },
+    "user_categories": {
+      "any_activity": 92,
+      "ai_activity": 89,
+      "tab_activity": 65,
+      "composer_activity": 3,
+      "chat_activity": 24,
+      "agent_activity": 87,
+      "accepts_activity": 64,
+      "high_activity": 64
+    },
+    "usage_metrics": {
+      "total_lines_added": 1258065,
+      "total_lines_deleted": 168993,
+      "accepted_lines_added": 234976,
+      "accepted_lines_deleted": 35076,
+      "total_applies": 6984,
+      "total_accepts": 5027,
+      "total_rejects": 594,
+      "total_tabs_shown": 28201,
+      "total_tabs_accepted": 6090,
+      "composer_requests": 667,
+      "chat_requests": 400,
+      "agent_requests": 7927,
+      "cmdk_usages": 109,
+      "accept_rate": 71.97880870561283,
+      "tab_accept_rate": 21.594978901457395,
+      "total_ai_requests": 8994,
+      "manual_lines": 1023089
+    },
+    "commits_context": {
+      "ai_lines_from_commits": 154227,
+      "total_lines_from_commits": 474489,
+      "commits_analyzed": 1887
+    },
+    "team_context": {
+      "total_team_size": 116,
+      "team_ai_adoption_rate": 76.7,
+      "team_any_activity_rate": 79.3
+    },
+    "date_range": {
+      "start": "2025-10-02",
+      "end": "2025-10-31",
+      "days_span": 30
+    },
+    "data_sources": {
+      "daily_usage_records": 2816,
+      "commits_available": true,
+      "changes_available": true,
+      "admin_data_available": true
+    }
+  },
+  "last_7_days": {
+    "period": "Last 7 days",
+    "generated_at": "2025-10-31T11:56:29.864911",
+    "kpis": {
+      "active_users": 72,
+      "dau_5day": 36,
+      "dau_7day": 27,
+      "agent_lines_accepted": 91088,
+      "tabs_accepted": 896,
+      "cursor_code_percentage": 21.7
+    },
+    "user_categories": {
+      "any_activity": 74,
+      "ai_activity": 72,
+      "tab_activity": 43,
+      "composer_activity": 3,
+      "chat_activity": 13,
+      "agent_activity": 71,
+      "accepts_activity": 41,
+      "high_activity": 40
+    },
+    "usage_metrics": {
+      "total_lines_added": 420303,
+      "total_lines_deleted": 73177,
+      "accepted_lines_added": 91088,
+      "accepted_lines_deleted": 14280,
+      "total_applies": 1700,
+      "total_accepts": 1255,
+      "total_rejects": 74,
+      "total_tabs_shown": 4424,
+      "total_tabs_accepted": 896,
+      "composer_requests": 235,
+      "chat_requests": 82,
+      "agent_requests": 2190,
+      "cmdk_usages": 8,
+      "accept_rate": 73.82352941176471,
+      "tab_accept_rate": 20.253164556962027,
+      "total_ai_requests": 2507,
+      "manual_lines": 329215
+    },
+    "commits_context": {
+      "ai_lines_from_commits": 39879,
+      "total_lines_from_commits": 105439,
+      "commits_analyzed": 402
+    },
+    "team_context": {
+      "total_team_size": 116,
+      "team_ai_adoption_rate": 62.1,
+      "team_any_activity_rate": 63.8
+    },
+    "date_range": {
+      "start": "2025-10-25",
+      "end": "2025-10-31",
+      "days_span": 7
+    },
+    "data_sources": {
+      "daily_usage_records": 692,
+      "commits_available": true,
+      "changes_available": true,
+      "admin_data_available": true
+    }
+  },
+  "last_2_days": {
+    "period": "Last 2 days",
+    "generated_at": "2025-10-31T11:56:29.878706",
+    "kpis": {
+      "active_users": 55,
+      "dau_5day": 39,
+      "dau_7day": 39,
+      "agent_lines_accepted": 62465,
+      "tabs_accepted": 387,
+      "cursor_code_percentage": 33.6
+    },
+    "user_categories": {
+      "any_activity": 56,
+      "ai_activity": 55,
+      "tab_activity": 24,
+      "composer_activity": 1,
+      "chat_activity": 7,
+      "agent_activity": 54,
+      "accepts_activity": 27,
+      "high_activity": 24
+    },
+    "usage_metrics": {
+      "total_lines_added": 185648,
+      "total_lines_deleted": 25449,
+      "accepted_lines_added": 62465,
+      "accepted_lines_deleted": 7481,
+      "total_applies": 852,
+      "total_accepts": 734,
+      "total_rejects": 35,
+      "total_tabs_shown": 1927,
+      "total_tabs_accepted": 387,
+      "composer_requests": 5,
+      "chat_requests": 36,
+      "agent_requests": 976,
+      "cmdk_usages": 2,
+      "accept_rate": 86.15023474178403,
+      "tab_accept_rate": 20.083030617540217,
+      "total_ai_requests": 1017,
+      "manual_lines": 123183
+    },
+    "commits_context": {
+      "ai_lines_from_commits": 10904,
+      "total_lines_from_commits": 37640,
+      "commits_analyzed": 180
+    },
+    "team_context": {
+      "total_team_size": 116,
+      "team_ai_adoption_rate": 47.4,
+      "team_any_activity_rate": 48.3
+    },
+    "date_range": {
+      "start": "2025-10-30",
+      "end": "2025-10-31",
+      "days_span": 2
+    },
+    "data_sources": {
+      "daily_usage_records": 230,
+      "commits_available": true,
+      "changes_available": true,
+      "admin_data_available": true
+    }
+  },
+  "generated_at": "2025-10-31T11:56:29.878724"
+}

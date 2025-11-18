@@ -1,0 +1,36 @@
+{
+  "lifecycle": {
+    "period": "Entire lifecycle",
+    "generated_at": "2025-10-20T10:13:23.543789",
+    "kpis": {
+      "active_users": 22,
+      "agent_lines_accepted": 44875,
+      "tabs_accepted": 76,
+      "cursor_code_percentage": 20.4
+    },
+    "breakdown": {
+      "tab_lines": 360,
+      "composer_lines": 44515,
+      "total_lines_added": 220483,
+      "manual_lines": 175608
+    },
+    "context": {
+      "total_commits": 737,
+      "total_users": 32,
+      "ai_users": 22,
+      "ai_assisted_commits": 239,
+      "ai_adoption_rate": 32.4,
+      "user_ai_adoption_rate": 68.8,
+      "date_range": {
+        "start": "2025-07-30",
+        "end": "2025-10-02",
+        "days_span": 64
+      }
+    }
+  },
+  "last_7_days": {
+    "error": "No commits data available for the specified time period",
+    "period": "Last 7 days"
+  },
+  "generated_at": "2025-10-20T10:13:23.546348"
+}

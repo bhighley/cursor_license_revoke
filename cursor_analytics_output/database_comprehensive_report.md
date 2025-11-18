@@ -1,0 +1,177 @@
+# 📊 Comprehensive Cursor AI Analytics Report
+*Generated from Database on: 2025-11-10 10:25:20*
+
+## 📅 Coverage Period
+
+- **First Date**: 2025-09-03
+- **Last Date**: 2025-11-09
+- **Total Days**: 67 days
+- **Data Source**: SQLite Database (cursor_analytics.db)
+
+---
+
+## 🎯 Lifecycle Metrics (All Time: 2025-09-03 to 2025-11-09)
+
+### User Adoption
+- **Total Users Tracked**: 131
+- **Active AI Users**: 123 (93.9%)
+- **Days of Data**: 67
+
+### Usage Metrics
+- **Agent Requests**: 13,943
+- **Chat Requests**: 824
+- **Cmd+K Usages**: 185
+- **Composer Requests**: 1,221
+- **Total AI Requests**: 16,173
+
+### Tab Completions
+- **Tabs Shown**: 46,374
+- **Tabs Accepted**: 9,932
+- **Tab Accept Rate**: 21.4%
+
+---
+
+## 📈 Recent Activity (Last 30 Days)
+
+### User Activity
+- **Active Users**: 122 (93.1% of total)
+- **Days Tracked**: 29
+
+### Usage Breakdown
+- **Agent Requests**: 9,269
+- **Chat Requests**: 628
+- **Cmd+K Usages**: 89
+- **Composer Requests**: 1,162
+- **Total Requests**: 11,148
+
+### Tab Completions
+- **Tabs Accepted**: 6,359
+- **Tab Accept Rate**: 22.6%
+
+---
+
+## 🔥 Recent Activity (Last 7 Days)
+
+- **Active Users**: 83
+- **Agent Requests**: 2,940
+- **Tabs Accepted**: 1,983
+- **Tab Accept Rate**: 22.0%
+
+---
+
+## 📊 Model Usage Distribution
+
+- **default**: 44.6% (607 uses, 77 users)
+- **claude-4-sonnet-thinking**: 21.2% (288 uses, 57 users)
+- **claude-4.5-sonnet-thinking**: 18.8% (256 uses, 37 users)
+- **gpt-5**: 6.4% (87 uses, 7 users)
+- **gemini-2.5-pro**: 3.4% (46 uses, 5 users)
+- **composer-1**: 1.7% (23 uses, 5 users)
+- **claude-4-sonnet**: 1.5% (20 uses, 5 users)
+- **gpt-5-codex**: 1.1% (15 uses, 3 users)
+- **gpt-5-high**: 0.4% (6 uses, 2 users)
+- **claude-3.5-sonnet**: 0.3% (4 uses, 1 users)
+
+
+---
+
+## 📈 Weekly Trends
+
+### Week of 2025-09-15 to 2025-09-21
+- **Active Users**: 51
+- **Agent Requests**: 799
+- **Tabs Accepted**: 400
+- **Tab Accept Rate**: 17.1%
+
+### Week of 2025-09-22 to 2025-09-28
+- **Active Users**: 66
+- **Agent Requests**: 1,027
+- **Tabs Accepted**: 613
+- **Tab Accept Rate**: 20.7%
+
+### Week of 2025-09-29 to 2025-10-05
+- **Active Users**: 85
+- **Agent Requests**: 1,148
+- **Tabs Accepted**: 1,399
+- **Tab Accept Rate**: 20.7%
+
+### Week of 2025-10-06 to 2025-10-12
+- **Active Users**: 90
+- **Agent Requests**: 1,492
+- **Tabs Accepted**: 1,181
+- **Tab Accept Rate**: 19.9%
+
+### Week of 2025-10-13 to 2025-10-19
+- **Active Users**: 105
+- **Agent Requests**: 2,111
+- **Tabs Accepted**: 2,394
+- **Tab Accept Rate**: 26.6%
+
+### Week of 2025-10-21 to 2025-10-26
+- **Active Users**: 113
+- **Agent Requests**: 1,676
+- **Tabs Accepted**: 932
+- **Tab Accept Rate**: 18.3%
+
+### Week of 2025-10-27 to 2025-11-02
+- **Active Users**: 116
+- **Agent Requests**: 2,501
+- **Tabs Accepted**: 975
+- **Tab Accept Rate**: 20.1%
+
+### Week of 2025-11-03 to 2025-11-09
+- **Active Users**: 130
+- **Agent Requests**: 2,940
+- **Tabs Accepted**: 1,983
+- **Tab Accept Rate**: 22.0%
+
+---
+
+## 🏆 Top Users (by Agent Requests)
+
+| Email | Active Days | Agent Requests | Tabs Accepted | Most Used Model |
+|-------|-------------|----------------|---------------|-----------------|
+| jsantibanez@insulet.com | 15 | 688 | 0 | claude-4-sonnet-thinking |
+| abutman@insulet.com | 26 | 600 | 228 | gpt-5 |
+| yberezkin@insulet.com | 18 | 514 | 118 | default |
+| skandroo@insulet.com | 28 | 425 | 324 | default |
+| omontero@insulet.com | 33 | 365 | 68 | gpt-5 |
+| bdavis2@insulet.com | 24 | 354 | 369 | default |
+| alucia@insulet.com | 22 | 340 | 91 | default |
+| maranguren@insulet.com | 19 | 323 | 64 | default |
+| brevill@insulet.com | 23 | 322 | 27 | default |
+| rbuchanan@insulet.com | 12 | 304 | 2 | claude-4-sonnet-thinking |
+| jbhatia@insulet.com | 27 | 290 | 407 | default |
+| acasazza@insulet.com | 16 | 249 | 0 | default |
+| bozaslan@insulet.com | 10 | 240 | 0 | default |
+| pvekuh@insulet.com | 14 | 223 | 9 | default |
+| dkobrenski@insulet.com | 16 | 221 | 23 | claude-4.5-sonnet-thinking |
+| smailavarapu@insulet.com | 16 | 220 | 6 | default |
+| lperniciaro@insulet.com | 20 | 204 | 27 | claude-4.5-sonnet-thinking |
+| jtbrown@insulet.com | 11 | 201 | 17 | claude-4-sonnet-thinking |
+| vsatyasravyavadupu@insulet.com | 11 | 188 | 0 | claude-4.5-sonnet-thinking |
+| pruiz@insulet.com | 26 | 185 | 1,594 | default |
+
+---
+
+## 📅 Month-over-Month Comparison
+
+| Month | Registered Users | Active Users | Agent Requests | Tabs Accepted | Growth |
+|-------|------------------|--------------|----------------|---------------|--------|
+| 2025-09 | 72 | 58 | 2,431 | 1,491 | — |
+| 2025-10 | 117 | 116 | 8,309 | 6,447 | +241.8% |
+| 2025-11 | 130 | 85 | 3,203 | 1,994 | -61.5% |
+
+
+---
+
+## 📝 Notes
+
+- This report is generated directly from the SQLite database
+- All metrics cover the full historical period: 2025-09-03 to 2025-11-09
+- Data is deduplicated automatically (no double-counting)
+- Updates daily as new data is collected
+
+---
+
+*Report generated by Database-Powered Analytics System*

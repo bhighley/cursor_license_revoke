@@ -1,0 +1,93 @@
+{
+  "lifecycle": {
+    "period": "Entire lifecycle",
+    "generated_at": "2025-10-02T15:43:48.700735",
+    "kpis": {
+      "active_users": 24,
+      "agent_lines_accepted": 42053,
+      "tabs_accepted": 46,
+      "cursor_code_percentage": 19.4
+    },
+    "breakdown": {
+      "tab_lines": 273,
+      "composer_lines": 41780,
+      "total_lines_added": 216638,
+      "manual_lines": 174585
+    },
+    "enhanced_context": {
+      "total_team_size": 77,
+      "ai_users": 24,
+      "all_active_users": 32,
+      "users_with_commits_only": 8,
+      "team_ai_adoption_rate": 31.2,
+      "active_user_ai_rate": 75.0
+    },
+    "activity_breakdown": {
+      "total_commits": 677,
+      "total_changes": 100,
+      "ai_assisted_commits": 231,
+      "commit_ai_adoption_rate": 34.1
+    },
+    "prompt_activity": {
+      "tab_prompts": 46,
+      "composer_prompts": 54,
+      "total_prompts": 100
+    },
+    "date_range": {
+      "start": "2025-07-30",
+      "end": "2025-10-01",
+      "days_span": 63
+    },
+    "data_sources": {
+      "commits_available": true,
+      "changes_available": true,
+      "admin_data_available": true
+    }
+  },
+  "last_7_days": {
+    "period": "Last 7 days",
+    "generated_at": "2025-10-02T15:43:48.708377",
+    "kpis": {
+      "active_users": 19,
+      "agent_lines_accepted": 7443,
+      "tabs_accepted": 46,
+      "cursor_code_percentage": 8.9
+    },
+    "breakdown": {
+      "tab_lines": 66,
+      "composer_lines": 7377,
+      "total_lines_added": 83233,
+      "manual_lines": 75790
+    },
+    "enhanced_context": {
+      "total_team_size": 77,
+      "ai_users": 19,
+      "all_active_users": 26,
+      "users_with_commits_only": 7,
+      "team_ai_adoption_rate": 24.7,
+      "active_user_ai_rate": 73.1
+    },
+    "activity_breakdown": {
+      "total_commits": 237,
+      "total_changes": 100,
+      "ai_assisted_commits": 83,
+      "commit_ai_adoption_rate": 35.0
+    },
+    "prompt_activity": {
+      "tab_prompts": 46,
+      "composer_prompts": 54,
+      "total_prompts": 100
+    },
+    "date_range": {
+      "start": "2025-09-25",
+      "end": "2025-10-01",
+      "days_span": 6
+    },
+    "data_sources": {
+      "commits_available": true,
+      "changes_available": true,
+      "admin_data_available": true
+    }
+  },
+  "generated_at": "2025-10-02T15:43:48.708401"
+}
