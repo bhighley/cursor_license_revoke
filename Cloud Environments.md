@@ -139,68 +139,143 @@ classDiagram
 
 ---
 
-## Alternative 3: Color-Coded Tree View (by Environment Type)
+
+## Alternative 3a: Mindmap View with Emoji Differentiation
 
 ```mermaid
-graph TD
-    Root((Cloud<br/>Environments))
-    
-    EU[EU Region]
-    US[US Region]
-    
-    Root --> EU
-    Root --> US
-    
-    EU --> EU_Dev["Mobile Dev<br/>31518660332"]
-    EU --> EU_Int["EU-INT<br/>858308689720"]
-    EU --> EU_QA["EU-QA<br/>568730585496"]
-    EU --> EU_ST["EU-System Test<br/>450234543935"]
-    EU --> EU_Perf["10xPerf<br/>516989349834"]
-    EU --> EU_Stg["EU-Staging<br/>761042451864"]
-    EU --> EU_Comm["EU-Commercial<br/>425557308772"]
-    EU --> EU_Clin["EU-Clinical<br/>576542144457"]
-    
-    US --> US_Dev["Mobile Dev<br/>31518660332"]
-    US --> US_Int["Cloud-INT<br/>444235492013"]
-    US --> US_QA["US-QA<br/>685815368936"]
-    US --> US_ST["US-SystemTest<br/>798382343803"]
-    US --> US_Perf["10xPerf<br/>516989349834"]
-    US --> US_Stg["US-Staging<br/>761042451864"]
-    US --> US_Comm["US-Commercial<br/>699069681480"]
-    US --> US_Clin["US-Clinical<br/>673098177177"]
-    
-    classDef rootStyle fill:#2E5C8A,stroke:#1A3A5A,stroke-width:4px,color:#fff
-    classDef regionStyle fill:#6C757D,stroke:#495057,stroke-width:3px,color:#fff
-    classDef dev fill:#FF6B6B,stroke:#C92A2A,stroke-width:3px,color:#fff
-    classDef int fill:#4ECDC4,stroke:#087F5B,stroke-width:3px,color:#fff
-    classDef qa fill:#FFE66D,stroke:#F59F00,stroke-width:3px,color:#000
-    classDef systemtest fill:#A8DADC,stroke:#1864AB,stroke-width:3px,color:#000
-    classDef perf fill:#B4A7D6,stroke:#5F3DC4,stroke-width:3px,color:#fff
-    classDef staging fill:#FFB84D,stroke:#E67700,stroke-width:3px,color:#000
-    classDef commercial fill:#51CF66,stroke:#2F9E44,stroke-width:3px,color:#fff
-    classDef clinical fill:#FF8787,stroke:#E03131,stroke-width:3px,color:#fff
-    
-    class Root rootStyle
-    class EU,US regionStyle
-    class EU_Dev,US_Dev dev
-    class EU_Int,US_Int int
-    class EU_QA,US_QA qa
-    class EU_ST,US_ST systemtest
-    class EU_Perf,US_Perf perf
-    class EU_Stg,US_Stg staging
-    class EU_Comm,US_Comm commercial
-    class EU_Clin,US_Clin clinical
+mindmap
+  root((Cloud Environments))
+    EU Region
+      🔴 DEV Mobile Dev
+        31518660332
+      🔵 INT EU-INT
+        858308689720
+      🟡 QA EU-QA
+        568730585496
+      🟦 TEST EU-System Test
+        450234543935
+      🟣 PERF 10xPerf
+        516989349834
+      🟠 STAGE EU-Staging
+        761042451864
+      🟢 PROD EU-Commercial
+        425557308772
+      🩷 CLINICAL EU-Clinical
+        576542144457
+    US Region
+      🔴 DEV Mobile Dev
+        31518660332
+      🔵 INT Cloud-INT
+        444235492013
+      🟡 QA US-QA
+        685815368936
+      🟦 TEST US-SystemTest
+        798382343803
+      🟣 PERF 10xPerf
+        516989349834
+      🟠 STAGE US-Staging
+        761042451864
+      🟢 PROD US-Commercial
+        699069681480
+      🩷 CLINICAL US-Clinical
+        673098177177
 ```
 
-**Color Legend:**
-- 🔴 **Mobile Dev** (Red) - Development environment
-- 🔵 **Integration** (Teal) - Integration testing
-- 🟡 **QA** (Yellow) - Quality assurance
-- 🟦 **System Test** (Light Blue) - System testing
-- 🟣 **10xPerf** (Purple) - Performance testing
-- 🟠 **Staging** (Orange) - Pre-production staging
-- 🟢 **Commercial** (Green) - Commercial production
-- 🔴 **Clinical** (Coral/Pink) - Clinical production
+---
+
+## Alternative 3b: Mindmap View with Brackets Differentiation
+
+```mermaid
+mindmap
+  root((Cloud Environments))
+    EU Region
+      [DEV] Mobile Dev
+        31518660332
+      [INT] EU-INT
+        858308689720
+      [QA] EU-QA
+        568730585496
+      [TEST] EU-System Test
+        450234543935
+      [PERF] 10xPerf
+        516989349834
+      [STAGE] EU-Staging
+        761042451864
+      [PROD] EU-Commercial
+        425557308772
+      [CLINICAL] EU-Clinical
+        576542144457
+    US Region
+      [DEV] Mobile Dev
+        31518660332
+      [INT] Cloud-INT
+        444235492013
+      [QA] US-QA
+        685815368936
+      [TEST] US-SystemTest
+        798382343803
+      [PERF] 10xPerf
+        516989349834
+      [STAGE] US-Staging
+        761042451864
+      [PROD] US-Commercial
+        699069681480
+      [CLINICAL] US-Clinical
+        673098177177
+```
+
+---
+
+## Alternative 3c: Mindmap View with Symbols
+
+```mermaid
+mindmap
+  root((Cloud Environments))
+    EU Region
+      ⚡ DEV | Mobile Dev
+        31518660332
+      🔄 INT | EU-INT
+        858308689720
+      ✓ QA | EU-QA
+        568730585496
+      🧪 TEST | EU-System Test
+        450234543935
+      🚀 PERF | 10xPerf
+        516989349834
+      📦 STAGE | EU-Staging
+        761042451864
+      💼 PROD | EU-Commercial
+        425557308772
+      🏥 CLINICAL | EU-Clinical
+        576542144457
+    US Region
+      ⚡ DEV | Mobile Dev
+        31518660332
+      🔄 INT | Cloud-INT
+        444235492013
+      ✓ QA | US-QA
+        685815368936
+      🧪 TEST | US-SystemTest
+        798382343803
+      🚀 PERF | 10xPerf
+        516989349834
+      📦 STAGE | US-Staging
+        761042451864
+      💼 PROD | US-Commercial
+        699069681480
+      🏥 CLINICAL | US-Clinical
+        673098177177
+```
+
+**Legend:**
+- 🔴 / ⚡ **DEV** - Development environment
+- 🔵 / 🔄 **INT** - Integration testing
+- 🟡 / ✓ **QA** - Quality assurance
+- 🟦 / 🧪 **TEST** - System testing
+- 🟣 / 🚀 **PERF** - Performance testing
+- 🟠 / 📦 **STAGE** - Pre-production staging
+- 🟢 / 💼 **PROD** - Commercial production
+- 🩷 / 🏥 **CLINICAL** - Clinical production
 
 ---
 
