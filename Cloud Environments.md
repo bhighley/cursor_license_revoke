@@ -1,4 +1,5 @@
 # Environment Names and Account Numbers (EU vs US)
+
 ```mermaid
 graph TD
     Title["<b>Environment Names and Account Numbers (EU vs US)</b>"]
@@ -138,7 +139,6 @@ classDiagram
 ```
 
 ---
-
 
 ## Alternative 3a: Mindmap View with Emoji Differentiation
 
