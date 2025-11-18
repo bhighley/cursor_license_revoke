@@ -9,9 +9,9 @@
 ## 📊 THE OPPORTUNITY
 
 ### Financial Impact
-- **Current License Spend:** $48,960/year (136 licenses @ $360/year)
-- **Total Recoverable:** $14,760/year (41 licenses)
-- **Conservative Approach (20+ days):** $10,440/year (29 licenses)
+- **Current License Spend:** $106,080/year (136 licenses @ $780/year)
+- **Total Recoverable:** $31,980/year (41 licenses)
+- **Conservative Approach (20+ days):** $22,620/year (29 licenses)
 - **Percentage of Budget:** 30.1% of total license spend
 - **ROI Timeline:** Immediate savings upon revocation
 
@@ -28,7 +28,7 @@ Recoverable Licenses:    41 users (30%)
 With 20+ Day Protection:
   ├─ Eligible:           29 users (71% of recoverable)
   ├─ Protected:          12 users (29% - new users)
-  └─ Conservative Save:  $10,440/year
+  └─ Conservative Save:  $22,620/year
 ```
 
 ---
@@ -58,7 +58,7 @@ python3 deactivate_user.py bulk recoverable_licenses.csv \
 
 ## 🔍 WHAT WE FOUND
 
-### Tier 1: Never Used (26 licenses - $9,360/year)
+### Tier 1: Never Used (26 licenses - $20,280/year)
 **Profile:** Users who received licenses but have ZERO activity
 - No agent requests
 - No code generated
@@ -67,7 +67,7 @@ python3 deactivate_user.py bulk recoverable_licenses.csv \
 
 **Recommendation:** Immediate revocation with 7-day notice
 
-### Tier 2: Minimal Usage (15 licenses - $5,400/year)
+### Tier 2: Minimal Usage (15 licenses - $11,700/year)
 **Profile:** Users who tried Cursor but stopped using it
 - 1-10 active days (avg: 3.2 days)
 - Last active: September 11 - November 1 (16-67 days ago)
@@ -81,12 +81,12 @@ python3 deactivate_user.py bulk recoverable_licenses.csv \
 
 | Rank | Cost Center | Recoverable | Annual $ | % of CC |
 |------|-------------|-------------|----------|---------|
-| 1️⃣ | 8140 - G&A Tech Ops & Security | 15 | $5,400 | 47% |
-| 2️⃣ | 5012 - Data Cloud - S&M | 6 | $2,160 | 40% |
-| 3️⃣ | 5820 - Customer Ecosystem Dev | 4 | $1,440 | 40% |
-| 4️⃣ | 4350 - Data Products CTO | 3 | $1,080 | 38% |
-| 5️⃣ | 4341 - Medical Device Apps Android | 3 | $1,080 | 18% |
-| | **Other (7 cost centers)** | **10** | **$3,600** | **varies** |
+| 1️⃣ | 8140 - G&A Tech Ops & Security | 15 | $11,700 | 47% |
+| 2️⃣ | 5012 - Data Cloud - S&M | 6 | $4,680 | 40% |
+| 3️⃣ | 5820 - Customer Ecosystem Dev | 4 | $3,120 | 40% |
+| 4️⃣ | 4350 - Data Products CTO | 3 | $2,340 | 38% |
+| 5️⃣ | 4341 - Medical Device Apps Android | 3 | $2,340 | 18% |
+| | **Other (7 cost centers)** | **10** | **$7,800** | **varies** |
 
 ---
 
@@ -101,7 +101,7 @@ python3 deactivate_user.py bulk recoverable_licenses.csv \
 
 **Root Cause:** Licenses provisioned to non-developer roles (PM, managers, support, sales)
 
-**Impact:** $10,080/year wasted on wrong role types
+**Impact:** $21,840/year wasted on wrong role types
 
 ---
 
@@ -176,8 +176,8 @@ python3 deactivate_user.py bulk recoverable_licenses.csv \
   "Q4 2025 License Optimization" "Your Name" --min-days 20
 ```
 
-**Expected Recovery:** 29 licenses ($10,440/year)  
-**Protected:** 12 users ($4,320/year in licenses kept for fair evaluation)
+**Expected Recovery:** 29 licenses ($22,620/year)  
+**Protected:** 12 users ($9,360/year in licenses kept for fair evaluation)
 
 ---
 
@@ -196,7 +196,7 @@ python3 deactivate_user.py bulk recoverable_licenses.csv \
 - Review engagement of minimal-usage users
 - Adjust threshold if needed (lower to 14 or 7 days)
 
-**Potential Additional Recovery:** 8-12 licenses ($2,880-4,320/year)
+**Potential Additional Recovery:** 8-12 licenses ($6,240-9,360/year)
 
 ---
 
@@ -252,27 +252,27 @@ saved     saved            going forward    maintained
 
 ### Recommended Approach (20+ Day Filter - Phase 1 Only)
 - **Licenses Recovered:** 29 of 41 (71%)
-- **Annual Savings:** $10,440
-- **3-Year Value:** $31,320
+- **Annual Savings:** $22,620
+- **3-Year Value:** $67,860
 - **Implementation Cost:** <$500 (time only)
-- **Net ROI:** 1,988%
+- **Net ROI:** 4,472%
 - **Protected New Users:** 12 (fair evaluation period)
 
 ### With Follow-Up (Phase 2 - After 30 Days)
 - **Additional Licenses:** 8-12 of the protected 12
-- **Additional Annual Savings:** $2,880-4,320
-- **Total Potential:** 37-41 licenses ($13,320-14,760/year)
-- **3-Year Value:** $39,960-44,280
-- **Net ROI:** 2,564-2,785%
+- **Additional Annual Savings:** $6,240-9,360
+- **Total Potential:** 37-41 licenses ($28,860-31,980/year)
+- **3-Year Value:** $86,580-95,940
+- **Net ROI:** 5,632-6,288%
 
 ### Aggressive Scenario (No Filter - All 41)
 - **Licenses Recovered:** 41 of 41 (100%)
-- **Annual Savings:** $14,760
-- **3-Year Value:** $44,280
+- **Annual Savings:** $31,980
+- **3-Year Value:** $95,940
 - **Risk:** May deactivate users who haven't had fair trial
-- **Net ROI:** 2,785%
+- **Net ROI:** 6,288%
 
-**Recommended Target:** Phase 1 with 20+ day filter (29 licenses, $10,440/year), then Phase 2 follow-up for protected users
+**Recommended Target:** Phase 1 with 20+ day filter (29 licenses, $22,620/year), then Phase 2 follow-up for protected users
 
 ---
 
@@ -283,10 +283,10 @@ saved     saved            going forward    maintained
 | Metric | Current | Target | Change |
 |--------|---------|--------|--------|
 | **License Utilization** | 70% | 95% | +25% |
-| **Wasted Spend** | $14,760/yr | $1,800/yr | -88% |
+| **Wasted Spend** | $31,980/yr | $3,900/yr | -88% |
 | **Never-Used Licenses** | 26 (19%) | <3 (2%) | -90% |
 | **New User Activation (7 days)** | 25% | 90% | +260% |
-| **Cost per Active User** | $516/yr | $360/yr | -30% |
+| **Cost per Active User** | $1,117/yr | $780/yr | -30% |
 | **Manager Visibility** | 0% | 100% | ∞ |
 
 ---
@@ -295,7 +295,7 @@ saved     saved            going forward    maintained
 
 ### 1. Run Deactivation with 20+ Day Filter
 - **Effort:** 5 minutes (one command)
-- **Impact:** $10,440/year (29 licenses)
+- **Impact:** $22,620/year (29 licenses)
 - **Command:** `python3 deactivate_user.py bulk recoverable_licenses.csv "Q4 2025" "Your Name" --min-days 20`
 - **Risk:** None (reversible, protects new users)
 - **Fair:** Automatically protects 12 users with <20 days
@@ -455,7 +455,7 @@ All documents created and ready:
 **Question:** May we proceed with Phase 1 license recovery using 20+ day protection?
 
 **What Happens Next:**
-- ✅ **YES** → Run deactivation command this week, save $10,440/year (29 licenses)
+- ✅ **YES** → Run deactivation command this week, save $22,620/year (29 licenses)
   - Automatically protects 12 new users (<20 days)
   - Fair and professional approach
   - Reversible if needed
@@ -465,11 +465,11 @@ All documents created and ready:
   - More professional communication
   
 - ⏸️ **ADJUST THRESHOLD** → Use different minimum (14 or 7 days instead of 20)
-  - 14 days: Recover ~35 licenses ($12,600/year)
-  - 7 days: Recover ~40 licenses ($14,400/year)
+  - 14 days: Recover ~35 licenses ($27,300/year)
+  - 7 days: Recover ~40 licenses ($31,200/year)
   
 - ❌ **NO** → Continue current state
-  - $14,760/year wasted
+  - $31,980/year wasted
   - 41 unused/underutilized licenses
   - 30% of license budget on non-users
 
@@ -477,7 +477,7 @@ All documents created and ready:
 - Fair evaluation period (3 weeks)
 - Legally defensible policy
 - Low risk (reversible)
-- High reward ($10,440/year immediately)
+- High reward ($22,620/year immediately)
 - Professional approach
 - Can follow up with protected users in 30 days
 
@@ -515,7 +515,7 @@ python3 deactivate_user.py bulk cursor_analytics_output/recoverable_licenses.csv
 - Re-run command for protected users who still haven't activated after 30 days
 - Additional 8-12 licenses likely recoverable
 - Generate final savings report
-- Present results to leadership: $10,440-13,320/year saved
+- Present results to leadership: $22,620-28,860/year saved
 
 ---
 
@@ -532,15 +532,15 @@ python3 deactivate_user.py bulk cursor_analytics_output/recoverable_licenses.csv
 
 ## 🎉 THE BOTTOM LINE
 
-- **$10,440/year** can be saved immediately (29 licenses with 20+ day protection)
+- **$22,620/year** can be saved immediately (29 licenses with 20+ day protection)
 - **41 users** total aren't benefiting from their access
 - **5 minutes of work** - one command recovers 29 licenses
 - **Fair approach** - automatically protects 12 users with <20 days
 - **Zero risk** - everything is reversible
-- **Follow-up potential** - additional $2,880-4,320/year from protected users
-- **Total opportunity** - up to $14,760/year
+- **Follow-up potential** - additional $6,240-9,360/year from protected users
+- **Total opportunity** - up to $31,980/year
 
-**One command. Fair policy. $10,440/year saved.**
+**One command. Fair policy. $22,620/year saved.**
 
 ```bash
 python3 deactivate_user.py bulk recoverable_licenses.csv \
@@ -557,5 +557,5 @@ python3 deactivate_user.py bulk recoverable_licenses.csv \
 
 ---
 
-*This report is based on actual usage data from September 15 - November 17, 2025. Financial projections assume $30/user/month license cost ($360/year). The 20+ day protection policy ensures fair evaluation periods and reduces risk of premature deactivation. All 41 users in the recoverable_licenses.csv now include days_on_cursor data for accurate filtering.*
+*This report is based on actual usage data from September 15 - November 17, 2025. Financial projections assume $65/user/month license cost ($780/year). The 20+ day protection policy ensures fair evaluation periods and reduces risk of premature deactivation. All 41 users in the recoverable_licenses.csv now include days_on_cursor data for accurate filtering.*
 
